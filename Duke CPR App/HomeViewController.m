@@ -1,5 +1,8 @@
 /*
+ * Inspired by Duvall
  * Andrew Patterson
+ * heavily modifided by Alex Bruce
+ * ArrayList<String> a = new ArrayList<String>();
  */
 
 #import "HomeViewController.h"
