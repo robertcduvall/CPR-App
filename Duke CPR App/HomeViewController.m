@@ -1,3 +1,7 @@
+/*
+ * Andrew Patterson
+ */
+
 #import "HomeViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
