@@ -149,6 +149,20 @@
                                     <segue destination="FHT-0M-zgy" kind="push" identifier="Step2Segue" id="tLZ-mn-ZCV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2T-7Y-58Y">
+                                <rect key="frame" x="20" y="308" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Dial 911">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dial911:" destination="PWM-Gk-oom" eventType="touchUpInside" id="985-F0-uJw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -203,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D65-Fu-nhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1393" y="-146"/>
+            <point key="canvasLocation" x="1393" y="-135"/>
         </scene>
         <!--Crisis Stage Four View Controller - Step 4-->
         <scene sceneID="iNk-Aa-QFp">
@@ -379,6 +393,7 @@
         <class className="CrisisStageSevenViewController" superclassName="GenericViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageSevenViewController.h"/>
             <relationships>
+                <relationship kind="action" name="doneButtonPressed:"/>
                 <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
             </relationships>
         </class>
@@ -397,6 +412,7 @@
         <class className="CrisisStageTwoViewController" superclassName="GenericViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageTwoViewController.h"/>
             <relationships>
+                <relationship kind="action" name="dial911:"/>
                 <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
             </relationships>
         </class>
