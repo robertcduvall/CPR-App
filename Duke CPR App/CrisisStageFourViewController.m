@@ -1,6 +1,6 @@
 #import "CrisisStageFourViewController.h"
 #define STAGE_FOUR_TEXT @"Place your hands in the center of their chest and lock your elbows"
-#define AUTO_PROGRESS_TIMER_INTERVAL 2
+#define AUTO_PROGRESS_TIMER_INTERVAL 7
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageFourViewController ()<UIGestureRecognizerDelegate>

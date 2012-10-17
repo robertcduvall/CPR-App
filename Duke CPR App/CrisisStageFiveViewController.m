@@ -1,7 +1,7 @@
 
 #import "CrisisStageFiveViewController.h"
 #define STAGE_FIVE_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
-#define AUTO_PROGRESS_TIMER_INTERVAL 2
+#define AUTO_PROGRESS_TIMER_INTERVAL 7
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageFiveViewController ()<UIGestureRecognizerDelegate>
