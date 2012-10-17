@@ -44,6 +44,7 @@
 		49047A69162F0E140056E82F /* Voices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Voices.mp3; sourceTree = "<group>"; };
 		4934FBBD162F108000A61309 /* CrisisModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisModeViewController.h; sourceTree = "<group>"; };
 		4934FBBE162F108000A61309 /* CrisisModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisModeViewController.m; sourceTree = "<group>"; };
+		4934FBC1162F300700A61309 /* Step 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Step 1.m4a"; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
 		FA292D0A16177508001C1F9B /* Duke CPR App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke CPR App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA292D0E16177508001C1F9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -102,6 +103,7 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				4934FBC1162F300700A61309 /* Step 1.m4a */,
 				49047A69162F0E140056E82F /* Voices.mp3 */,
 				49047A63162F00940056E82F /* CPR Instruction Video.mov */,
 			);
