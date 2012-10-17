@@ -264,6 +264,10 @@
                                     <segue destination="bNQ-px-Dzz" kind="push" identifier="NextStepSegue" id="hzd-nD-BQF"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Handtochestoverheart.jpeg" id="Uom-mj-jjB">
+                                <rect key="frame" x="20" y="141" width="280" height="222"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -375,63 +379,9 @@
         <image name="AED.jpeg" width="600" height="416"/>
         <image name="BLS-Check-for-response.jpeg" width="320" height="240"/>
         <image name="Duke.logo.jpeg" width="221" height="109"/>
+        <image name="Handtochestoverheart.jpeg" width="400" height="285"/>
         <image name="large_car-accident.jpeg" width="480" height="360"/>
     </resources>
-    <classes>
-        <class className="AdditionalDataViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AdditionalDataViewController.h"/>
-        </class>
-        <class className="CrisisModeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisModeViewController.h"/>
-        </class>
-        <class className="CrisisStageFiveViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFiveViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageFourViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFourViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageOneViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageOneViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageSixViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageSixViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageThreeViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageThreeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageTwoViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageTwoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dial911:"/>
-                <relationship kind="outlet" name="dialButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="GenericViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GenericViewController.h"/>
-        </class>
-        <class className="HomeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="crisisModeButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
