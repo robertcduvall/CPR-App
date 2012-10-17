@@ -1,7 +1,6 @@
-
-
 #import "CrisisStageThreeViewController.h"
 #define STAGE_THREE_TEXT @"Place the victim on their back on a hard surface (neck stability)"
+#define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageThreeViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -50,7 +49,7 @@
     }
     else
     {
-        [self performSegueWithIdentifier:@"Step3Segue" sender:self];
+        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
     }
 }
 

@@ -1,9 +1,12 @@
 
 #import "CrisisStageSixViewController.h"
 #define STAGE_SIX_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
+#define AUTO_PROGRESS_TIMER_INTERVAL 2
+#define NEXT_STEP_SEGUE @"NextStepSegue"
+
 @interface CrisisStageSixViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-
+@property (weak, nonatomic) NSTimer *autoprogressTimer;
 @end
 
 @implementation CrisisStageSixViewController
@@ -14,15 +17,27 @@
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
-    
-    
-	
 }
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [self.autoprogressTimer invalidate];
+}
+
+- (void) autoprogress
+{
+    [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
+}
+
 
 - (void)setUpTextView
 {
     self.textView.text = STAGE_SIX_TEXT;
-    
 }
 
 
@@ -50,7 +65,7 @@
     }
     else
     {
-        [self performSegueWithIdentifier:@"Step6Segue" sender:self];
+        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
     }
 }
 

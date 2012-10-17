@@ -2,6 +2,7 @@
 #import "CrisisStageTwoViewController.h"
 
 #define STAGE_TWO_TEXT @"Call 911 and ask for an AED"
+#define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageTwoViewController ()<UIGestureRecognizerDelegate>
 - (IBAction)dial911:(id)sender;
@@ -61,7 +62,7 @@
     }
     else
     {
-        [self performSegueWithIdentifier:@"Step2Segue" sender:self];
+        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
     }
 }
 

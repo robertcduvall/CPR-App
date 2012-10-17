@@ -1,6 +1,7 @@
 #import "CrisisStageFourViewController.h"
 #define STAGE_FOUR_TEXT @"Place your hands in the center of their chest and lock your elbows"
-#define AUTO_PROGRESS_TIMER_INTERVAL 1
+#define AUTO_PROGRESS_TIMER_INTERVAL 2
+#define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageFourViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -28,7 +29,7 @@
 
 - (void) autoprogress
 {
-    [self performSegueWithIdentifier:@"Step4Segue" sender:self];
+    [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
 }
 
 - (void)setUpTextView
@@ -61,7 +62,7 @@
     }
     else
     {
-        [self performSegueWithIdentifier:@"Step4Segue" sender:self];
+        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
     }
 }
 

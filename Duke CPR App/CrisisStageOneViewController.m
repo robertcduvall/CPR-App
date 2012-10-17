@@ -1,10 +1,10 @@
 #import "CrisisStageOneViewController.h"
 
 #define STAGE_ONE_TEXT @"Check to see if the victim is unresponsive by shaking and shouting (gasping for breath does not mean the victim is okay)"
+#define NEXT_STEP_SEGUE @"NextStepSegue"
+
 @interface CrisisStageOneViewController () <UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-
-
 @end
 
 @implementation CrisisStageOneViewController
@@ -26,15 +26,6 @@
 - (void) setupTextView
 {
     self.textView.text = STAGE_ONE_TEXT;
-
-//    if(nil == NULL)
-//    {
-//        NSLog(@"this is british");
-//    }
-//    else
-//    {
-//        NSLog(@"%@",self.textView);
-//    }
 }
 
 -(void) addGestureRecognizer
@@ -56,7 +47,7 @@
     }
     else
     {
-        [self performSegueWithIdentifier:@"Step1Segue" sender:self];
+        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
     }
 }
 
