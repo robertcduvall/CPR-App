@@ -1,5 +1,5 @@
 #import "CrisisStageSevenViewController.h"
-#define STAGE_SEVEN_TEXT @"Continue to the sound of the beat to save a life"
+#define STAGE_SEVEN_TEXT @"Continue to the sound of the beat to save a life and keep going until help arrives"
 
 @interface CrisisStageSevenViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;

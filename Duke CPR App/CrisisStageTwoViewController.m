@@ -4,6 +4,7 @@
 #define STAGE_TWO_TEXT @"Call 911 and ask for an AED"
 
 @interface CrisisStageTwoViewController ()<UIGestureRecognizerDelegate>
+- (IBAction)dial911:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
@@ -70,4 +71,7 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (IBAction)dial911:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:911"]];
+}
 @end
