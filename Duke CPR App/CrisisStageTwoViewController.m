@@ -5,6 +5,7 @@
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageTwoViewController ()<UIGestureRecognizerDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *dialButton;
 - (IBAction)dial911:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @end
@@ -23,6 +24,12 @@
 {
     [super viewDidLoad];
     [self setUpTextView];
+    self.dialButton.backgroundColor = [UIColor redColor];
+    [self.dialButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    self.dialButton.titleLabel.font = [UIFont fontWithName:@"Arial" size:35];
+    self.dialButton.layer.cornerRadius = 10;
+    self.dialButton.layer.borderWidth = 1;
+    self.dialButton.layer.borderColor = [UIColor blackColor].CGColor;
 }
 
 
@@ -35,6 +42,7 @@
 - (void)viewDidUnload
 {
     [self setTextView:nil];
+    [self setDialButton:nil];
     [super viewDidUnload];
 }
 

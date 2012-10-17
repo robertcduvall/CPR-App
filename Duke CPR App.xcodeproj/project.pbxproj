@@ -41,6 +41,9 @@
 		FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */; };
 		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
+		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
+		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
+		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +95,9 @@
 		FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
 		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
+		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
+		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,11 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				49047A61162F00740056E82F /* Media */,
-				49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */,
 				FA292D1D16177508001C1F9B /* AppDelegate.h */,
 				FA292D1E16177508001C1F9B /* AppDelegate.m */,
-				FA95578416177B14002BBEAC /* Duke.logo.jpeg */,
-				FA95578516177B14002BBEAC /* duke_blue.png */,
 				FA95578C16178F68002BBEAC /* GenericViewController.h */,
 				FA95578D16178F69002BBEAC /* GenericViewController.m */,
 				FA9557A11617A1A3002BBEAC /* CrisisMode */,
