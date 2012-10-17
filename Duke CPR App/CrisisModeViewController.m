@@ -59,10 +59,18 @@
 
 - (void) initializeAudioPlayer
 {
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Voices" ofType:@"mp3"]];
+    NSString *className = NSStringFromClass(self.class);
+    NSString *audioFile = [className substringFromIndex:6];
+    audioFile = [audioFile substringToIndex:[audioFile rangeOfString:@"ViewController"].location];
+    audioFile = [NSString stringWithFormat:@"%@VoiceCommands",audioFile];
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:audioFile ofType:@"mp3"]];
+    
     self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     self.audioPlayer.delegate = self;
     [self.audioPlayer prepareToPlay];
 }
+
+
 
 @end
