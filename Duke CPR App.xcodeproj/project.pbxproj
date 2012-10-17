@@ -12,6 +12,12 @@
 		49047A68162F04320056E82F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49047A67162F04320056E82F /* AVFoundation.framework */; };
 		49047A6A162F0E140056E82F /* Voices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49047A69162F0E140056E82F /* Voices.mp3 */; };
 		4934FBBF162F108000A61309 /* CrisisModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934FBBE162F108000A61309 /* CrisisModeViewController.m */; };
+		4934FBC5162F39C000A61309 /* StageOneVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */; };
+		4934FBCB162F3A9800A61309 /* StageTwoVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */; };
+		4934FBCC162F3A9800A61309 /* StageThreeVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */; };
+		4934FBCD162F3A9800A61309 /* StageFourVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */; };
+		4934FBCE162F3A9800A61309 /* StageFiveVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */; };
+		4934FBCF162F3A9800A61309 /* StageSixVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */; };
 		49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */; };
 		FA292D0F16177508001C1F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D0E16177508001C1F9B /* UIKit.framework */; };
 		FA292D1116177508001C1F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D1016177508001C1F9B /* Foundation.framework */; };
@@ -48,7 +54,12 @@
 		49047A69162F0E140056E82F /* Voices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Voices.mp3; sourceTree = "<group>"; };
 		4934FBBD162F108000A61309 /* CrisisModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisModeViewController.h; sourceTree = "<group>"; };
 		4934FBBE162F108000A61309 /* CrisisModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisModeViewController.m; sourceTree = "<group>"; };
-		4934FBC1162F300700A61309 /* Step 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Step 1.m4a"; sourceTree = "<group>"; };
+		4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageOneVoiceCommands.mp3; sourceTree = "<group>"; };
+		4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageTwoVoiceCommands.mp3; sourceTree = "<group>"; };
+		4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageThreeVoiceCommands.mp3; sourceTree = "<group>"; };
+		4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFourVoiceCommands.mp3; sourceTree = "<group>"; };
+		4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFiveVoiceCommands.mp3; sourceTree = "<group>"; };
+		4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageSixVoiceCommands.mp3; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
 		FA292D0A16177508001C1F9B /* Duke CPR App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke CPR App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA292D0E16177508001C1F9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -121,6 +132,13 @@
 				4934FBC1162F300700A61309 /* Step 1.m4a */,
 				49047A69162F0E140056E82F /* Voices.mp3 */,
 				49047A63162F00940056E82F /* CPR Instruction Video.mov */,
+				4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */,
+				4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */,
+				4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */,
+				4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */,
+				4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */,
+				4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */,
+				49047A69162F0E140056E82F /* Voices.mp3 */,
 			);
 			name = Media;
 			sourceTree = "<group>";
