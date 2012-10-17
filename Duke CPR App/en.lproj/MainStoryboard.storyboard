@@ -248,7 +248,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bNQ-px-Dzz" kind="push" id="hzd-nD-BQF"/>
+                                    <segue destination="bNQ-px-Dzz" kind="push" identifier="Step4Segue" id="hzd-nD-BQF"/>
                                 </connections>
                             </button>
                         </subviews>

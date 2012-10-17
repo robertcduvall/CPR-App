@@ -1,28 +1,39 @@
 #import "CrisisStageFourViewController.h"
 #define STAGE_FOUR_TEXT @"Place your hands in the center of their chest and lock your elbows"
+#define AUTO_PROGRESS_TIMER_INTERVAL 1
 
 @interface CrisisStageFourViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-
+@property (weak, nonatomic) NSTimer *autoprogressTimer;
 @end
 
 @implementation CrisisStageFourViewController
-
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
-    
-	
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [self.autoprogressTimer invalidate];
+}
+
+- (void) autoprogress
+{
+    [self performSegueWithIdentifier:@"Step4Segue" sender:self];
 }
 
 - (void)setUpTextView
 {
     self.textView.text = STAGE_FOUR_TEXT;
-    
 }
 
 
