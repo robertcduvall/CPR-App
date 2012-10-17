@@ -1,5 +1,5 @@
 #import "CrisisStageFourViewController.h"
-#define STAGE_FOUR_TEXT @"Place your hands in the center of their chest"
+#define STAGE_FOUR_TEXT @"Place your hands in the center of their chest and lock your elbows"
 
 @interface CrisisStageFourViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
