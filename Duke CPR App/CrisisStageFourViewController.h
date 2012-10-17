@@ -1,5 +1,5 @@
-#import "GenericViewController.h"
+#import "CrisisModeViewController.h"
 
-@interface CrisisStageFourViewController : GenericViewController
+@interface CrisisStageFourViewController : CrisisModeViewController
 
 @end

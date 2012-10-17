@@ -8,30 +8,23 @@
 
 @implementation CrisisStageSixViewController
 
+#pragma mark - ViewController Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
-    
-	
 }
 
 - (void)setUpTextView
 {
     self.textView.text = STAGE_SEVEN_TEXT;
-    
 }
 
 - (IBAction)doneButtonPressed:(id)sender
 {
     [self.navigationController popToRootViewControllerAnimated:YES];
-}
-
-
-- (void)viewDidUnload {
-    [self setTextView:nil];
-    [super viewDidUnload];
 }
 
 -(void) addGestureRecognizer
@@ -57,11 +50,15 @@
     }
 }
 
-
-
 -(void) backSwipeRecognized
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)viewDidUnload
+{
+    [self setTextView:nil];
+    [super viewDidUnload];
 }
 
 @end

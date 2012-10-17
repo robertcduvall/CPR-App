@@ -10,6 +10,8 @@
 
 @implementation CrisisStageFourViewController
 
+#pragma mark - ViewController Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -19,12 +21,14 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
 }
 
 - (void) viewWillDisappear:(BOOL)animated
 {
     [self.autoprogressTimer invalidate];
+    [super viewWillDisappear:YES];
 }
 
 - (void) autoprogress
@@ -35,12 +39,6 @@
 - (void)setUpTextView
 {
     self.textView.text = STAGE_FOUR_TEXT;
-}
-
-
-- (void)viewDidUnload {
-    [self setTextView:nil];
-    [super viewDidUnload];
 }
 
 -(void) addGestureRecognizer
@@ -69,6 +67,12 @@
 -(void) backSwipeRecognized
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)viewDidUnload
+{
+    [self setTextView:nil];
+    [super viewDidUnload];
 }
 
 @end

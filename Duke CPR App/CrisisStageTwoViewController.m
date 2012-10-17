@@ -7,7 +7,6 @@
 @interface CrisisStageTwoViewController ()<UIGestureRecognizerDelegate>
 - (IBAction)dial911:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-
 @end
 
 @implementation CrisisStageTwoViewController
@@ -18,22 +17,19 @@
         //might in the future want to set up some stuff
 }
 
+#pragma mark - ViewController Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
-//    self.textView.backgroundColor = [UIColor clearColor];
-//    self.textView.font = [UIFont fontWithName:@"Arial" size:22];
-//    self.textView.textColor = [UIColor whiteColor];
-    
-	
 }
+
 
 - (void)setUpTextView
 {
     self.textView.text = STAGE_TWO_TEXT;
-    
 }
 
 

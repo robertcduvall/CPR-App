@@ -3,31 +3,31 @@
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageThreeViewController ()<UIGestureRecognizerDelegate>
+
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
 @implementation CrisisStageThreeViewController
 
+#pragma mark - ViewController Lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
-    
-	
+}
+
+- (void)viewDidUnload
+{
+    [self setTextView:nil];
+    [super viewDidUnload];
 }
 
 - (void)setUpTextView
 {
     self.textView.text = STAGE_THREE_TEXT;
-    
-}
-
-- (void)viewDidUnload {
-    [self setTextView:nil];
-    [super viewDidUnload];
 }
 
 -(void) addGestureRecognizer

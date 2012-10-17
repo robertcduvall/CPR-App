@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
-#import "GenericViewController.h"
+#import "CrisisModeViewController.h"
 
-@interface CrisisStageOneViewController : GenericViewController
+@interface CrisisStageOneViewController : CrisisModeViewController
 
 @end

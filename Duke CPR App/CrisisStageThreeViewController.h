@@ -1,13 +1,5 @@
-//
-//  CrisisStageThreeViewController.h
-//  Duke CPR App
-//
-//  Created by Alexander Bruce on 9/29/12.
-//  Copyright (c) 2012 Alexander Bruce. All rights reserved.
-//
+#import "CrisisModeViewController.h"
 
-#import "GenericViewController.h"
-
-@interface CrisisStageThreeViewController : GenericViewController
+@interface CrisisStageThreeViewController : CrisisModeViewController
 
 @end

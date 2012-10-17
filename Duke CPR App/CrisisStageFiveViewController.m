@@ -1,6 +1,6 @@
 
 #import "CrisisStageFiveViewController.h"
-#define STAGE_SIX_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
+#define STAGE_FIVE_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
 #define AUTO_PROGRESS_TIMER_INTERVAL 2
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
@@ -12,6 +12,8 @@
 @implementation CrisisStageFiveViewController
 
 
+#pragma mark - ViewController Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -21,12 +23,14 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:YES];
     self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
 }
 
 - (void) viewWillDisappear:(BOOL)animated
 {
     [self.autoprogressTimer invalidate];
+    [super viewWillDisappear:animated];
 }
 
 - (void) autoprogress
@@ -37,11 +41,12 @@
 
 - (void)setUpTextView
 {
-    self.textView.text = STAGE_SIX_TEXT;
+    self.textView.text = STAGE_FIVE_TEXT;
 }
 
 
-- (void)viewDidUnload {
+- (void)viewDidUnload
+{
     [self setTextView:nil];
     [super viewDidUnload];
 }
