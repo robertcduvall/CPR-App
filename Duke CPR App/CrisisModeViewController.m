@@ -38,8 +38,10 @@
 
 -(void) swipeRecognized: (UIPanGestureRecognizer  *) recognizer
 {
-    if(recognizer.state != UIGestureRecognizerStateBegan) return;
+//    if(recognizer.state != UIGestureRecognizerStateBegan) return;
+    if(recognizer.state != UIGestureRecognizerStateRecognized) return;
     CGPoint velocity = [recognizer velocityInView:self.view];
+    if(abs(velocity.x) < 300) return;
     if(velocity.x > 0)
     {
         [self.navigationController popViewControllerAnimated:YES];
