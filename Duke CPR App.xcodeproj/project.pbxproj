@@ -38,6 +38,7 @@
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
+		FAA90706162F3CC400602572 /* Handtochestoverheart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90705162F3CC400602572 /* Handtochestoverheart.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
 		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
+		FAA90705162F3CC400602572 /* Handtochestoverheart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Handtochestoverheart.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FAA90705162F3CC400602572 /* Handtochestoverheart.jpeg */,
 				FAA90703162F3B7500602572 /* large_car-accident.jpeg */,
 				FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */,
 				FA95578516177B14002BBEAC /* duke_blue.png */,
@@ -270,6 +273,7 @@
 				FAA906FF162F333700602572 /* AED.jpeg in Resources */,
 				FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */,
 				FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */,
+				FAA90706162F3CC400602572 /* Handtochestoverheart.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
