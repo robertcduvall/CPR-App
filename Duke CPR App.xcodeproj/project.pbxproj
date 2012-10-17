@@ -35,6 +35,7 @@
 		FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */; };
 		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
+		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
 		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,10 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FA95578516177B14002BBEAC /* duke_blue.png */,
+				FA95578416177B14002BBEAC /* Duke.logo.jpeg */,
+				49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */,
+				FAA906FE162F333700602572 /* AED.jpeg */,
 				4934FBC1162F300700A61309 /* Step 1.m4a */,
 				49047A69162F0E140056E82F /* Voices.mp3 */,
 				49047A63162F00940056E82F /* CPR Instruction Video.mov */,
@@ -144,11 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				49047A61162F00740056E82F /* Media */,
-				49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */,
 				FA292D1D16177508001C1F9B /* AppDelegate.h */,
 				FA292D1E16177508001C1F9B /* AppDelegate.m */,
-				FA95578416177B14002BBEAC /* Duke.logo.jpeg */,
-				FA95578516177B14002BBEAC /* duke_blue.png */,
 				FA95578C16178F68002BBEAC /* GenericViewController.h */,
 				FA95578D16178F69002BBEAC /* GenericViewController.m */,
 				FA9557A11617A1A3002BBEAC /* CrisisMode */,
@@ -258,6 +261,7 @@
 				49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */,
 				49047A64162F00940056E82F /* CPR Instruction Video.mov in Resources */,
 				49047A6A162F0E140056E82F /* Voices.mp3 in Resources */,
+				FAA906FF162F333700602572 /* AED.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
