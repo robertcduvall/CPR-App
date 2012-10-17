@@ -1,43 +1,31 @@
-
 #import "CrisisStageSixViewController.h"
-#define STAGE_SIX_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
-#define AUTO_PROGRESS_TIMER_INTERVAL 2
-#define NEXT_STEP_SEGUE @"NextStepSegue"
+#define STAGE_SEVEN_TEXT @"Continue to the sound of the beat to save a life and keep going until help arrives"
 
 @interface CrisisStageSixViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-@property (weak, nonatomic) NSTimer *autoprogressTimer;
+
 @end
 
 @implementation CrisisStageSixViewController
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setUpTextView];
     [self addGestureRecognizer];
+    
+	
 }
-
-- (void) viewDidAppear:(BOOL)animated
-{
-    self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
-}
-
-- (void) viewWillDisappear:(BOOL)animated
-{
-    [self.autoprogressTimer invalidate];
-}
-
-- (void) autoprogress
-{
-    [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
-}
-
 
 - (void)setUpTextView
 {
-    self.textView.text = STAGE_SIX_TEXT;
+    self.textView.text = STAGE_SEVEN_TEXT;
+    
+}
+
+- (IBAction)doneButtonPressed:(id)sender
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 
@@ -65,9 +53,11 @@
     }
     else
     {
-        [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
+        //[self performSegueWithIdentifier:@"Step1Segue" sender:self];
     }
 }
+
+
 
 -(void) backSwipeRecognized
 {

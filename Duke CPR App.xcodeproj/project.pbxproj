@@ -27,8 +27,8 @@
 		FA9557911617918C002BBEAC /* CrisisStageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9557901617918C002BBEAC /* CrisisStageTwoViewController.m */; };
 		FA95579416179B5F002BBEAC /* CrisisStageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579316179B5F002BBEAC /* CrisisStageThreeViewController.m */; };
 		FA95579716179BD9002BBEAC /* CrisisStageFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579616179BD9002BBEAC /* CrisisStageFourViewController.m */; };
-		FA95579D16179E16002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageSixViewController.m */; };
-		FA9557A016179E3A002BBEAC /* CrisisStageSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSevenViewController.m */; };
+		FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */; };
+		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +64,10 @@
 		FA95579316179B5F002BBEAC /* CrisisStageThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageThreeViewController.m; sourceTree = "<group>"; };
 		FA95579516179BD9002BBEAC /* CrisisStageFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageFourViewController.h; sourceTree = "<group>"; };
 		FA95579616179BD9002BBEAC /* CrisisStageFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageFourViewController.m; sourceTree = "<group>"; };
-		FA95579B16179E16002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
-		FA95579C16179E16002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
-		FA95579E16179E39002BBEAC /* CrisisStageSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSevenViewController.h; sourceTree = "<group>"; };
-		FA95579F16179E39002BBEAC /* CrisisStageSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSevenViewController.m; sourceTree = "<group>"; };
+		FA95579B16179E16002BBEAC /* CrisisStageFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageFiveViewController.h; sourceTree = "<group>"; };
+		FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageFiveViewController.m; sourceTree = "<group>"; };
+		FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
+		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -156,10 +156,10 @@
 				FA95579616179BD9002BBEAC /* CrisisStageFourViewController.m */,
 				FA955789161784D2002BBEAC /* CrisisStageOneViewController.h */,
 				FA95578A161784D2002BBEAC /* CrisisStageOneViewController.m */,
-				FA95579E16179E39002BBEAC /* CrisisStageSevenViewController.h */,
-				FA95579F16179E39002BBEAC /* CrisisStageSevenViewController.m */,
-				FA95579B16179E16002BBEAC /* CrisisStageSixViewController.h */,
-				FA95579C16179E16002BBEAC /* CrisisStageSixViewController.m */,
+				FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */,
+				FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */,
+				FA95579B16179E16002BBEAC /* CrisisStageFiveViewController.h */,
+				FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */,
 				FA95579216179B5F002BBEAC /* CrisisStageThreeViewController.h */,
 				FA95579316179B5F002BBEAC /* CrisisStageThreeViewController.m */,
 				FA95578F1617918C002BBEAC /* CrisisStageTwoViewController.h */,
@@ -246,8 +246,8 @@
 				FA9557911617918C002BBEAC /* CrisisStageTwoViewController.m in Sources */,
 				FA95579416179B5F002BBEAC /* CrisisStageThreeViewController.m in Sources */,
 				FA95579716179BD9002BBEAC /* CrisisStageFourViewController.m in Sources */,
-				FA95579D16179E16002BBEAC /* CrisisStageSixViewController.m in Sources */,
-				FA9557A016179E3A002BBEAC /* CrisisStageSevenViewController.m in Sources */,
+				FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */,
+				FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,3 @@
-
 #import "GenericViewController.h"
 
 @interface CrisisStageSixViewController : GenericViewController

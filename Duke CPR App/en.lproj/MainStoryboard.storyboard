@@ -263,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="1778" y="-146"/>
         </scene>
-        <!--Crisis Stage Six View Controller - Step 5-->
+        <!--Crisis Stage Five View Controller - Step 5-->
         <scene sceneID="yIS-oO-01g">
             <objects>
-                <viewController id="bNQ-px-Dzz" customClass="CrisisStageSixViewController" sceneMemberID="viewController">
+                <viewController id="bNQ-px-Dzz" customClass="CrisisStageFiveViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xYd-Re-5Sd">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -307,10 +307,10 @@
             </objects>
             <point key="canvasLocation" x="2160" y="-146"/>
         </scene>
-        <!--Crisis Stage Seven View Controller - Step 6-->
+        <!--Crisis Stage Six View Controller - Step 6-->
         <scene sceneID="VaX-1P-MDl">
             <objects>
-                <viewController id="aiT-zA-cx3" customClass="CrisisStageSevenViewController" sceneMemberID="viewController">
+                <viewController id="aiT-zA-cx3" customClass="CrisisStageSixViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lY2-Th-ouL">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
