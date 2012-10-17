@@ -21,6 +21,12 @@
     [self initializeVideoPlayer];
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.myVideoPlayer stop];
+}
+
 - (void) initializeVideoPlayer
 {
     self.myVideoView = [[UIView alloc] initWithFrame:self.view.frame];
