@@ -216,6 +216,10 @@
                                     <segue destination="hS5-WI-taY" kind="push" identifier="NextStepSegue" id="xD9-Ce-p3y"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="large_car-accident.jpeg" id="cDm-Wt-rgi">
+                                <rect key="frame" x="20" y="144" width="280" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -371,6 +375,7 @@
         <image name="AED.jpeg" width="600" height="416"/>
         <image name="BLS-Check-for-response.jpeg" width="320" height="240"/>
         <image name="Duke.logo.jpeg" width="221" height="109"/>
+        <image name="large_car-accident.jpeg" width="480" height="360"/>
     </resources>
     <classes>
         <class className="AdditionalDataViewController" superclassName="UIViewController">

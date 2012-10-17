@@ -37,6 +37,7 @@
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
+		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
+		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FAA90703162F3B7500602572 /* large_car-accident.jpeg */,
 				FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */,
 				FA95578516177B14002BBEAC /* duke_blue.png */,
 				FA95578416177B14002BBEAC /* Duke.logo.jpeg */,
@@ -266,6 +269,7 @@
 				49047A6A162F0E140056E82F /* Voices.mp3 in Resources */,
 				FAA906FF162F333700602572 /* AED.jpeg in Resources */,
 				FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */,
+				FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
