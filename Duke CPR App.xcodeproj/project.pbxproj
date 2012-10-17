@@ -36,6 +36,7 @@
 		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
+		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
+		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */,
 				FA95578516177B14002BBEAC /* duke_blue.png */,
 				FA95578416177B14002BBEAC /* Duke.logo.jpeg */,
 				49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */,
@@ -262,6 +265,7 @@
 				49047A64162F00940056E82F /* CPR Instruction Video.mov in Resources */,
 				49047A6A162F0E140056E82F /* Voices.mp3 in Resources */,
 				FAA906FF162F333700602572 /* AED.jpeg in Resources */,
+				FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

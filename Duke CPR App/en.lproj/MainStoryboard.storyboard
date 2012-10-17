@@ -105,6 +105,10 @@
                                     <segue destination="PWM-Gk-oom" kind="push" identifier="NextStepSegue" id="LNl-U9-TNY"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BLS-Check-for-response.jpeg" id="Nev-Dd-Wed">
+                                <rect key="frame" x="20" y="191" width="280" height="201"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -149,7 +153,7 @@
                                     <segue destination="FHT-0M-zgy" kind="push" identifier="NextStepSegue" id="tLZ-mn-ZCV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2T-7Y-58Y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J2T-7Y-58Y">
                                 <rect key="frame" x="20" y="308" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
@@ -164,7 +168,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="AED.jpeg" id="REW-Vl-uF6">
-                                <rect key="frame" x="40" y="140" width="240" height="128"/>
+                                <rect key="frame" x="20" y="82" width="280" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -172,6 +176,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Step 2" id="NRH-0j-iYA"/>
                     <connections>
+                        <outlet property="dialButton" destination="J2T-7Y-58Y" id="U6C-uj-Uwo"/>
                         <outlet property="textView" destination="bWo-0I-e3I" id="COZ-Gu-eT9"/>
                     </connections>
                 </viewController>
@@ -364,6 +369,7 @@
     </scenes>
     <resources>
         <image name="AED.jpeg" width="600" height="416"/>
+        <image name="BLS-Check-for-response.jpeg" width="320" height="240"/>
         <image name="Duke.logo.jpeg" width="221" height="109"/>
     </resources>
     <classes>
@@ -407,6 +413,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageTwoViewController.h"/>
             <relationships>
                 <relationship kind="action" name="dial911:"/>
+                <relationship kind="outlet" name="dialButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
             </relationships>
         </class>
