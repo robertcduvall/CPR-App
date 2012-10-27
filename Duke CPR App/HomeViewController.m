@@ -3,6 +3,7 @@
 
 @interface HomeViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *crisisModeButton;
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
 
 @end
 
@@ -18,6 +19,8 @@
     self.crisisModeButton.layer.cornerRadius = 10;
     self.crisisModeButton.layer.borderWidth = 1;
     self.crisisModeButton.layer.borderColor = [UIColor blackColor].CGColor;
+    self.logo.layer.cornerRadius = 50;
+    self.logo.clipsToBounds = YES;
 }
 
 
@@ -25,6 +28,7 @@
 - (void)viewDidUnload
 {
     [self setCrisisModeButton:nil];
+    [self setLogo:nil];
     [super viewDidUnload];
 }
 @end

@@ -67,6 +67,7 @@
                     <navigationItem key="navigationItem" title="Home" id="Zj9-rs-6Oc"/>
                     <connections>
                         <outlet property="crisisModeButton" destination="bV6-Rs-qGk" id="em4-hr-27v"/>
+                        <outlet property="logo" destination="XVy-Au-n6q" id="d4j-r7-GqJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avc-4A-nPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -370,13 +371,70 @@
                     <view key="view" contentMode="scaleToFill" id="ECp-Md-LAM">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DhD-i8-ZAD">
+                                <rect key="frame" x="0.0" y="112" width="320" height="392"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Duke.logo.jpeg" id="pth-VC-Oao">
+                                <rect key="frame" x="40" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="nj9-Db-Y28"/>
+                    <connections>
+                        <outlet property="logo" destination="pth-VC-Oao" id="g9L-mG-uK0"/>
+                        <outlet property="tableView" destination="DhD-i8-ZAD" id="7gT-WM-CGD"/>
+                        <segue destination="j0l-wa-aJc" kind="push" identifier="info page segue" id="D4B-Xn-Ak3"/>
+                        <segue destination="s2K-pv-mP1" kind="push" identifier="video segue" id="rdO-Xb-vUx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="usH-7k-ZpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-134" y="566"/>
+        </scene>
+        <!--Website View Controller - Web-->
+        <scene sceneID="44Q-7i-xXF">
+            <objects>
+                <viewController id="j0l-wa-aJc" customClass="WebsiteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ofR-ho-x0A">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="TfI-Sg-su2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Web" id="9GL-i6-TgA"/>
+                    <connections>
+                        <outlet property="webView" destination="TfI-Sg-su2" id="rfn-r5-Mxk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zbp-aU-mOb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="566"/>
+        </scene>
+        <!--Video Player View Controller - Video-->
+        <scene sceneID="r0N-7I-vO4">
+            <objects>
+                <viewController id="s2K-pv-mP1" customClass="VideoPlayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="duM-li-0FZ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video" id="0sW-UR-9Zd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69e-Ui-VCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="1287"/>
         </scene>
     </scenes>
     <resources>
@@ -387,61 +445,6 @@
         <image name="funny_cartoon_zombie1.jpeg" width="400" height="400"/>
         <image name="large_car-accident.jpeg" width="480" height="360"/>
     </resources>
-    <classes>
-        <class className="AdditionalDataViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AdditionalDataViewController.h"/>
-        </class>
-        <class className="CrisisModeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisModeViewController.h"/>
-        </class>
-        <class className="CrisisStageFiveViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFiveViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageFourViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFourViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageOneViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageOneViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageSixViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageSixViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageThreeViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageThreeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageTwoViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageTwoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dial911:"/>
-                <relationship kind="outlet" name="dialButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="GenericViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GenericViewController.h"/>
-        </class>
-        <class className="HomeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="crisisModeButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

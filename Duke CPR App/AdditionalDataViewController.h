@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "GenericViewController.h"
 
-@interface AdditionalDataViewController : UIViewController
+@interface AdditionalDataViewController : GenericViewController
 
 @end

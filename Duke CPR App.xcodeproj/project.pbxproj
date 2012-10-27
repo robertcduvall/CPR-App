@@ -25,6 +25,17 @@
 		FA292D2816177508001C1F9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA292D2616177508001C1F9B /* MainStoryboard.storyboard */; };
 		FA292D2B16177508001C1F9B /* AdditionalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA292D2A16177508001C1F9B /* AdditionalDataViewController.m */; };
 		FA292D33161776B7001C1F9B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA292D32161776B7001C1F9B /* HomeViewController.m */; };
+		FA411E40163C805A0062F0E9 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */; };
+		FA8B0611163C8DC800E12EFD /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */; };
+		FA8B0616163C90F700E12EFD /* duke-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0615163C90F700E12EFD /* duke-logo.png */; };
+		FA8B0618163C910500E12EFD /* duke-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0617163C910500E12EFD /* duke-logo.png */; };
+		FA8B061A163C914000E12EFD /* duke-logo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0619163C914000E12EFD /* duke-logo-retina.png */; };
+		FA8B061C163C914600E12EFD /* duke-logo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061B163C914600E12EFD /* duke-logo-retina.png */; };
+		FA8B061E163C916B00E12EFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061D163C916B00E12EFD /* Default.png */; };
+		FA8B0620163C918100E12EFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061F163C918100E12EFD /* Default@2x.png */; };
+		FA8B0622163C918900E12EFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0621163C918900E12EFD /* Default-568h@2x.png */; };
+		FA8B0624163C921D00E12EFD /* abstract-blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */; };
+		FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */; };
 		FA95578616177B14002BBEAC /* Duke.logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA95578416177B14002BBEAC /* Duke.logo.jpeg */; };
 		FA95578716177B14002BBEAC /* duke_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FA95578516177B14002BBEAC /* duke_blue.png */; };
 		FA95578B161784D2002BBEAC /* CrisisStageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95578A161784D2002BBEAC /* CrisisStageOneViewController.m */; };
@@ -80,6 +91,19 @@
 		FA292D2A16177508001C1F9B /* AdditionalDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionalDataViewController.m; sourceTree = "<group>"; };
 		FA292D31161776B7001C1F9B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		FA292D32161776B7001C1F9B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FA411E3E163C805A0062F0E9 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		FA8B060F163C8DC800E12EFD /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		FA8B0615163C90F700E12EFD /* duke-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo.png"; sourceTree = "<group>"; };
+		FA8B0617163C910500E12EFD /* duke-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo.png"; sourceTree = "<group>"; };
+		FA8B0619163C914000E12EFD /* duke-logo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo-retina.png"; sourceTree = "<group>"; };
+		FA8B061B163C914600E12EFD /* duke-logo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo-retina.png"; sourceTree = "<group>"; };
+		FA8B061D163C916B00E12EFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA8B061F163C918100E12EFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA8B0621163C918900E12EFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abstract-blue-background.jpg"; sourceTree = "<group>"; };
+		FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3d-blue-fractal_422_1417.jpg"; sourceTree = "<group>"; };
 		FA95578416177B14002BBEAC /* Duke.logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Duke.logo.jpeg; sourceTree = "<group>"; };
 		FA95578516177B14002BBEAC /* duke_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duke_blue.png; sourceTree = "<group>"; };
 		FA955789161784D2002BBEAC /* CrisisStageOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageOneViewController.h; sourceTree = "<group>"; };
@@ -124,6 +148,10 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */,
+				FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */,
+				FA8B0619163C914000E12EFD /* duke-logo-retina.png */,
+				FA8B0615163C90F700E12EFD /* duke-logo.png */,
 				49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */,
 				FAF8E241162F426500996B71 /* funny_cartoon_zombie1.jpeg */,
 				FAA90705162F3CC400602572 /* Handtochestoverheart.jpeg */,
@@ -147,6 +175,11 @@
 		FA292CFF16177508001C1F9B = {
 			isa = PBXGroup;
 			children = (
+				FA8B0621163C918900E12EFD /* Default-568h@2x.png */,
+				FA8B061F163C918100E12EFD /* Default@2x.png */,
+				FA8B061D163C916B00E12EFD /* Default.png */,
+				FA8B061B163C914600E12EFD /* duke-logo-retina.png */,
+				FA8B0617163C910500E12EFD /* duke-logo.png */,
 				49047A67162F04320056E82F /* AVFoundation.framework */,
 				49047A65162F01540056E82F /* MediaPlayer.framework */,
 				FA9557A21617AF15002BBEAC /* QuartzCore.framework */,
@@ -189,8 +222,12 @@
 				FA292D1516177508001C1F9B /* Supporting Files */,
 				FA292D2916177508001C1F9B /* AdditionalDataViewController.h */,
 				FA292D2A16177508001C1F9B /* AdditionalDataViewController.m */,
+				FA8B060F163C8DC800E12EFD /* VideoPlayerViewController.h */,
+				FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */,
 				4934FBBD162F108000A61309 /* CrisisModeViewController.h */,
 				4934FBBE162F108000A61309 /* CrisisModeViewController.m */,
+				FA411E3E163C805A0062F0E9 /* WebsiteViewController.h */,
+				FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */,
 			);
 			path = "Duke CPR App";
 			sourceTree = "<group>";
@@ -300,6 +337,15 @@
 				FAA90706162F3CC400602572 /* Handtochestoverheart.jpeg in Resources */,
 				FAF8E242162F426500996B71 /* funny_cartoon_zombie1.jpeg in Resources */,
 				49E3ADCE162F45EC001CA109 /* Ken-Jeong-Video.mov in Resources */,
+				FA8B0616163C90F700E12EFD /* duke-logo.png in Resources */,
+				FA8B0618163C910500E12EFD /* duke-logo.png in Resources */,
+				FA8B061A163C914000E12EFD /* duke-logo-retina.png in Resources */,
+				FA8B061C163C914600E12EFD /* duke-logo-retina.png in Resources */,
+				FA8B061E163C916B00E12EFD /* Default.png in Resources */,
+				FA8B0620163C918100E12EFD /* Default@2x.png in Resources */,
+				FA8B0622163C918900E12EFD /* Default-568h@2x.png in Resources */,
+				FA8B0624163C921D00E12EFD /* abstract-blue-background.jpg in Resources */,
+				FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +368,8 @@
 				FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */,
 				FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */,
 				4934FBBF162F108000A61309 /* CrisisModeViewController.m in Sources */,
+				FA411E40163C805A0062F0E9 /* WebsiteViewController.m in Sources */,
+				FA8B0611163C8DC800E12EFD /* VideoPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
