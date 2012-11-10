@@ -3,11 +3,11 @@
 
 #define STAGE_TWO_TEXT @"Call 911 and ask for an AED"
 #define NEXT_STEP_SEGUE @"NextStepSegue"
+#define EMERGENCY_NUMBER_STRING @"tel:911"
 
 @interface CrisisStageTwoViewController ()<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *dialButton;
 - (IBAction)dial911:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextView *textView;
 @end
 
 @implementation CrisisStageTwoViewController
@@ -30,6 +30,15 @@
     self.dialButton.layer.cornerRadius = 10;
     self.dialButton.layer.borderWidth = 1;
     self.dialButton.layer.borderColor = [UIColor blackColor].CGColor;
+    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:EMERGENCY_NUMBER_STRING]])
+    {
+        self.dialButton.hidden = NO;
+    }
+    else
+    {
+        //self.dialButton.hidden = YES;
+    }
+    
 }
 
 
@@ -47,6 +56,6 @@
 }
 
 - (IBAction)dial911:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:911"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:EMERGENCY_NUMBER_STRING]];
 }
 @end

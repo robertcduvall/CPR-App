@@ -4,7 +4,6 @@
 #define STAGE_SEVEN_TEXT @"Continue to the sound of the beat to save a life and keep going until help arrives"
 
 @interface CrisisStageSixViewController ()<UIGestureRecognizerDelegate>
-@property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (nonatomic, strong) UIView *myVideoView;
 @property (nonatomic, strong) MPMoviePlayerController *myVideoPlayer;
 

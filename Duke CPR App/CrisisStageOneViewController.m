@@ -3,7 +3,6 @@
 #define STAGE_ONE_TEXT @"Check to see if the victim is unresponsive by shaking and shouting (gasping for breath does not mean the victim is okay)"
 
 @interface CrisisStageOneViewController () <UIGestureRecognizerDelegate>
-@property (weak, nonatomic) IBOutlet UITextView *textView;
 @end
 
 @implementation CrisisStageOneViewController

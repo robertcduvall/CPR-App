@@ -4,8 +4,6 @@
 
 @interface CrisisStageThreeViewController ()<UIGestureRecognizerDelegate>
 
-@property (weak, nonatomic) IBOutlet UITextView *textView;
-
 @end
 
 @implementation CrisisStageThreeViewController

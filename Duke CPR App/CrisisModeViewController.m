@@ -1,6 +1,7 @@
 #import "CrisisModeViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #define NEXT_STEP_SEGUE @"NextStepSegue"
+#define NUM_OF_FINGERS_ALLOWED_FOR_SWIPE 2
 
 @interface CrisisModeViewController ()
 
@@ -30,23 +31,41 @@
 
 -(void) addGestureRecognizer
 {
-    UIPanGestureRecognizer *pan;
-    pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
-    [pan setMinimumNumberOfTouches:1];
-    [self.view addGestureRecognizer:pan];
+    for(int i = 1; i  <= NUM_OF_FINGERS_ALLOWED_FOR_SWIPE; i++)
+    {
+        UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
+        swipeLeft.direction = UISwipeGestureRecognizerDirectionLeft;
+        swipeLeft.numberOfTouchesRequired = i;
+        [self.view addGestureRecognizer:swipeLeft];
+        
+        UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
+        swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
+        swipeRight.numberOfTouchesRequired = i;
+        [self.view addGestureRecognizer:swipeRight];
+    }
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(textViewTapped)];
+    [self.textView addGestureRecognizer:tap];
 }
 
--(void) swipeRecognized: (UIPanGestureRecognizer  *) recognizer
+- (void) textViewTapped
+{
+    if(![self.audioPlayer isPlaying])
+    {
+        self.audioPlayer.currentTime = 0.0f;
+        [self.audioPlayer play];
+    }
+}
+
+-(void) swipeRecognized: (UISwipeGestureRecognizer  *) recognizer
 {
 //    if(recognizer.state != UIGestureRecognizerStateBegan) return;
-    if(recognizer.state != UIGestureRecognizerStateRecognized) return;
-    CGPoint velocity = [recognizer velocityInView:self.view];
-    if(abs(velocity.x) < 300) return;
-    if(velocity.x > 0)
+//    if(recognizer.state != UIGestureRecognizerStateRecognized) return;
+    if(recognizer.direction == UISwipeGestureRecognizerDirectionRight)
     {
         [self.navigationController popViewControllerAnimated:YES];
     }
-    else
+    else if(recognizer.direction == UISwipeGestureRecognizerDirectionLeft)
     {
         @try
         {

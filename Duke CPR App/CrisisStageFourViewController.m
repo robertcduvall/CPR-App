@@ -4,7 +4,6 @@
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageFourViewController ()<UIGestureRecognizerDelegate>
-@property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) NSTimer *autoprogressTimer;
 @end
 

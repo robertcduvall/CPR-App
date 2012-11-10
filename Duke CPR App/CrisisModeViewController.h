@@ -3,6 +3,7 @@
 
 @interface CrisisModeViewController : GenericViewController  <AVAudioPlayerDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
 @end
