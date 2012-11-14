@@ -54,6 +54,9 @@
 		FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */; };
 		FA97ACF7165438AD0035405A /* Step2.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACF2165438AD0035405A /* Step2.mov */; };
 		FA97ACF8165438AD0035405A /* Intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACF3165438AD0035405A /* Intro.mov */; };
+		FA97AD02165439590035405A /* Step 4.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACFF165439590035405A /* Step 4.mov */; };
+		FA97AD03165439590035405A /* Conclusion.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97AD00165439590035405A /* Conclusion.mov */; };
+		FA97AD05165439870035405A /* step3.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97AD04165439870035405A /* step3.mov */; };
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
@@ -143,6 +146,9 @@
 		FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep6ViewController.m; sourceTree = "<group>"; };
 		FA97ACF2165438AD0035405A /* Step2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Step2.mov; sourceTree = "<group>"; };
 		FA97ACF3165438AD0035405A /* Intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Intro.mov; sourceTree = "<group>"; };
+		FA97ACFF165439590035405A /* Step 4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Step 4.mov"; sourceTree = "<group>"; };
+		FA97AD00165439590035405A /* Conclusion.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Conclusion.mov; sourceTree = "<group>"; };
+		FA97AD04165439870035405A /* step3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = step3.mov; sourceTree = "<group>"; };
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
 		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
@@ -392,6 +398,9 @@
 				FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */,
 				FA97ACF7165438AD0035405A /* Step2.mov in Resources */,
 				FA97ACF8165438AD0035405A /* Intro.mov in Resources */,
+				FA97AD02165439590035405A /* Step 4.mov in Resources */,
+				FA97AD03165439590035405A /* Conclusion.mov in Resources */,
+				FA97AD05165439870035405A /* step3.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
