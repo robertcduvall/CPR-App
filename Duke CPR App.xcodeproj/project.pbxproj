@@ -11,6 +11,12 @@
 		49047A66162F01540056E82F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49047A65162F01540056E82F /* MediaPlayer.framework */; };
 		49047A68162F04320056E82F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49047A67162F04320056E82F /* AVFoundation.framework */; };
 		4934FBBF162F108000A61309 /* CrisisModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934FBBE162F108000A61309 /* CrisisModeViewController.m */; };
+		4965E6F716543CE0007DFFEE /* TrainingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */; };
+		4965E6FD16543DD6007DFFEE /* TrainingModeStep5Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */; };
+		4965E6FE16543DD6007DFFEE /* TrainingModeStep1Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */; };
+		4965E6FF16543DD6007DFFEE /* TrainingModeStep4Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */; };
+		4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */; };
+		4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */; };
 		49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */; };
 		49E3ADCE162F45EC001CA109 /* Ken-Jeong-Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */; };
 		FA292D0F16177508001C1F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D0E16177508001C1F9B /* UIKit.framework */; };
@@ -52,11 +58,6 @@
 		FA97ACE81653D8470035405A /* TrainingModeStep4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE71653D8470035405A /* TrainingModeStep4ViewController.m */; };
 		FA97ACEB1653D8560035405A /* TrainingModeStep5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */; };
 		FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */; };
-		FA97ACF7165438AD0035405A /* Step2.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACF2165438AD0035405A /* Step2.mov */; };
-		FA97ACF8165438AD0035405A /* Intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACF3165438AD0035405A /* Intro.mov */; };
-		FA97AD02165439590035405A /* Step 4.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97ACFF165439590035405A /* Step 4.mov */; };
-		FA97AD03165439590035405A /* Conclusion.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97AD00165439590035405A /* Conclusion.mov */; };
-		FA97AD05165439870035405A /* step3.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA97AD04165439870035405A /* step3.mov */; };
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
@@ -82,6 +83,13 @@
 		4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFourVoiceCommands.mp3; sourceTree = "<group>"; };
 		4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFiveVoiceCommands.mp3; sourceTree = "<group>"; };
 		4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageSixVoiceCommands.mp3; sourceTree = "<group>"; };
+		4965E6F516543CE0007DFFEE /* TrainingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeViewController.h; sourceTree = "<group>"; };
+		4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeViewController.m; sourceTree = "<group>"; };
+		4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep5Video.mov; sourceTree = "<group>"; };
+		4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep1Video.mov; sourceTree = "<group>"; };
+		4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep4Video.mov; sourceTree = "<group>"; };
+		4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep2Video.mov; sourceTree = "<group>"; };
+		4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep3Video.mov; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
 		49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Ken-Jeong-Video.mov"; sourceTree = "<group>"; };
 		FA292D0A16177508001C1F9B /* Compression-Only CPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compression-Only CPR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,11 +152,6 @@
 		FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep5ViewController.m; sourceTree = "<group>"; };
 		FA97ACEC1653D8660035405A /* TrainingModeStep6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep6ViewController.h; sourceTree = "<group>"; };
 		FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep6ViewController.m; sourceTree = "<group>"; };
-		FA97ACF2165438AD0035405A /* Step2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Step2.mov; sourceTree = "<group>"; };
-		FA97ACF3165438AD0035405A /* Intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Intro.mov; sourceTree = "<group>"; };
-		FA97ACFF165439590035405A /* Step 4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Step 4.mov"; sourceTree = "<group>"; };
-		FA97AD00165439590035405A /* Conclusion.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Conclusion.mov; sourceTree = "<group>"; };
-		FA97AD04165439870035405A /* step3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = step3.mov; sourceTree = "<group>"; };
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
 		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
@@ -176,8 +179,11 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				FA97ACF2165438AD0035405A /* Step2.mov */,
-				FA97ACF3165438AD0035405A /* Intro.mov */,
+				4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */,
+				4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */,
+				4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */,
+				4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */,
+				4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */,
 				FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */,
 				FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */,
 				FA8B0619163C914000E12EFD /* duke-logo-retina.png */,
@@ -311,6 +317,8 @@
 				FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */,
 				FA97ACEC1653D8660035405A /* TrainingModeStep6ViewController.h */,
 				FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */,
+				4965E6F516543CE0007DFFEE /* TrainingModeViewController.h */,
+				4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */,
 			);
 			name = TrainingMode;
 			sourceTree = "<group>";
@@ -396,11 +404,11 @@
 				FA8B0622163C918900E12EFD /* Default-568h@2x.png in Resources */,
 				FA8B0624163C921D00E12EFD /* abstract-blue-background.jpg in Resources */,
 				FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */,
-				FA97ACF7165438AD0035405A /* Step2.mov in Resources */,
-				FA97ACF8165438AD0035405A /* Intro.mov in Resources */,
-				FA97AD02165439590035405A /* Step 4.mov in Resources */,
-				FA97AD03165439590035405A /* Conclusion.mov in Resources */,
-				FA97AD05165439870035405A /* step3.mov in Resources */,
+				4965E6FD16543DD6007DFFEE /* TrainingModeStep5Video.mov in Resources */,
+				4965E6FE16543DD6007DFFEE /* TrainingModeStep1Video.mov in Resources */,
+				4965E6FF16543DD6007DFFEE /* TrainingModeStep4Video.mov in Resources */,
+				4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */,
+				4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +439,7 @@
 				FA97ACE81653D8470035405A /* TrainingModeStep4ViewController.m in Sources */,
 				FA97ACEB1653D8560035405A /* TrainingModeStep5ViewController.m in Sources */,
 				FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */,
+				4965E6F716543CE0007DFFEE /* TrainingModeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

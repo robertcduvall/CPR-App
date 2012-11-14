@@ -1,8 +1,8 @@
 
 
 #import "GenericViewController.h"
-#import "CrisisModeViewController.h"
+#import "TrainingModeViewController.h"
 
-@interface TrainingModeStep3ViewController : CrisisModeViewController
+@interface TrainingModeStep3ViewController : TrainingModeViewController
 
 @end
