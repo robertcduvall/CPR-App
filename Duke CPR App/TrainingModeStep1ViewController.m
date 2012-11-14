@@ -14,6 +14,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
+- (IBAction)donePressed:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 
 
 
