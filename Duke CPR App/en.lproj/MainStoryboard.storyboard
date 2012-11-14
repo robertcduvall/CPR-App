@@ -89,7 +89,7 @@
             </objects>
             <point key="canvasLocation" x="154" y="-138"/>
         </scene>
-        <!--Training Mode Step1 View Controller - Training Step 1-->
+        <!--Training Mode Step1 View Controller - Training 1-->
         <scene sceneID="QXZ-MQ-uvH">
             <objects>
                 <viewController id="yZs-tt-GVC" customClass="TrainingModeStep1ViewController" sceneMemberID="viewController">
@@ -115,13 +115,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 1" id="eog-eu-P5f"/>
+                    <navigationItem key="navigationItem" title="Training 1" id="eog-eu-P5f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hfg-dF-EsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="582" y="-869"/>
         </scene>
-        <!--Training Mode Step2 View Controller - Training Step 2-->
+        <!--Training Mode Step2 View Controller - Training 2-->
         <scene sceneID="d3y-y9-MLJ">
             <objects>
                 <viewController id="P81-ud-H5S" customClass="TrainingModeStep2ViewController" sceneMemberID="viewController">
@@ -147,13 +147,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 2" id="GL2-Nt-jz7"/>
+                    <navigationItem key="navigationItem" title="Training 2" id="GL2-Nt-jz7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Add-vw-wBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1029" y="-869"/>
         </scene>
-        <!--Training Mode Step4 View Controller - Training Step 4-->
+        <!--Training Mode Step4 View Controller - Training 4-->
         <scene sceneID="W3z-wg-IfT">
             <objects>
                 <viewController id="yHC-1a-qTV" customClass="TrainingModeStep4ViewController" sceneMemberID="viewController">
@@ -179,13 +179,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 4" id="sw9-Uu-uQR"/>
+                    <navigationItem key="navigationItem" title="Training 4" id="sw9-Uu-uQR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJn-hR-DaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1761" y="-864"/>
         </scene>
-        <!--Training Mode Step6 View Controller - Training Step 6-->
+        <!--Training Mode Step6 View Controller - Training 6-->
         <scene sceneID="bUG-70-hHH">
             <objects>
                 <viewController id="jD9-Hv-e99" customClass="TrainingModeStep6ViewController" sceneMemberID="viewController">
@@ -194,7 +194,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 6" id="kzG-OD-Fsb">
+                    <navigationItem key="navigationItem" title="Training 6" id="kzG-OD-Fsb">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="sfZ-xB-9N2">
                             <connections>
                                 <action selector="doneButtonPressed:" destination="jD9-Hv-e99" id="upB-cZ-ZCj"/>
@@ -206,7 +206,7 @@
             </objects>
             <point key="canvasLocation" x="2538" y="-862"/>
         </scene>
-        <!--Training Mode Step3 View Controller - Training Step 3-->
+        <!--Training Mode Step3 View Controller - Training 3-->
         <scene sceneID="2sm-dQ-tLE">
             <objects>
                 <viewController id="gx2-xm-RSY" customClass="TrainingModeStep3ViewController" sceneMemberID="viewController">
@@ -232,13 +232,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 3" id="gP6-M0-yCg"/>
+                    <navigationItem key="navigationItem" title="Training 3" id="gP6-M0-yCg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rF9-Ut-ekM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1398" y="-864"/>
         </scene>
-        <!--Training Mode Step5 View Controller - Training Step 5-->
+        <!--Training Mode Step5 View Controller - Training 5-->
         <scene sceneID="oIX-OK-U8F">
             <objects>
                 <viewController id="cE1-AH-c6z" customClass="TrainingModeStep5ViewController" sceneMemberID="viewController">
@@ -264,7 +264,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training Step 5" id="4RN-Md-PkF"/>
+                    <navigationItem key="navigationItem" title="Training 5" id="4RN-Md-PkF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vy-BG-O2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -641,83 +641,6 @@
         <image name="funny_cartoon_zombie1.jpeg" width="400" height="400"/>
         <image name="large_car-accident.jpeg" width="480" height="360"/>
     </resources>
-    <classes>
-        <class className="AdditionalDataViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AdditionalDataViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="logo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="CrisisModeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisModeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageFiveViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFiveViewController.h"/>
-        </class>
-        <class className="CrisisStageFourViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageFourViewController.h"/>
-        </class>
-        <class className="CrisisStageOneViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageOneViewController.h"/>
-        </class>
-        <class className="CrisisStageSixViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageSixViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneButtonPressed:"/>
-            </relationships>
-        </class>
-        <class className="CrisisStageThreeViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageThreeViewController.h"/>
-        </class>
-        <class className="CrisisStageTwoViewController" superclassName="CrisisModeViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageTwoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dial911:"/>
-                <relationship kind="outlet" name="dialButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="GenericViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GenericViewController.h"/>
-        </class>
-        <class className="HomeViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="crisisModeButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="logo" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="TrainingModeStep1ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep1ViewController.h"/>
-        </class>
-        <class className="TrainingModeStep2ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep2ViewController.h"/>
-        </class>
-        <class className="TrainingModeStep3ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep3ViewController.h"/>
-        </class>
-        <class className="TrainingModeStep4ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep4ViewController.h"/>
-        </class>
-        <class className="TrainingModeStep5ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep5ViewController.h"/>
-        </class>
-        <class className="TrainingModeStep6ViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep6ViewController.h"/>
-        </class>
-        <class className="VideoPlayerViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/VideoPlayerViewController.h"/>
-        </class>
-        <class className="WebsiteViewController" superclassName="GenericViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebsiteViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

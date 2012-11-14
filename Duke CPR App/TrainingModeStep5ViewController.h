@@ -7,7 +7,8 @@
 //
 
 #import "GenericViewController.h"
+#import "CrisisModeViewController.h"
 
-@interface TrainingModeStep5ViewController : GenericViewController
+@interface TrainingModeStep5ViewController : CrisisModeViewController
 
 @end
