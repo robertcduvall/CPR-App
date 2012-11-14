@@ -41,7 +41,7 @@
     [self.rowTitles addObject:@"American Heart Association"];
     [self.rowTitles addObject:@"Heart Rescue Project"];
     [self.rowTitles addObject:@"Patients Like Me"];
-    [self.rowTitles addObject:@"Women Heart"];
+    [self.rowTitles addObject:@"WomenHeart"];
     [self.rowTitles addObject:VIDEO_ROW_TITLE];
 }
 
