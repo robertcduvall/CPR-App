@@ -28,10 +28,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bV6-Rs-qGk">
-                                <rect key="frame" x="20" y="181" width="280" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="20" y="189" width="280" height="151"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" title="CRISIS MODE">
+                                <state key="normal" title="CPR Emergency">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eKj-es-DgZ">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="436" width="280" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
                                 <state key="normal" title="Learn More">
@@ -61,6 +61,21 @@
                                 <rect key="frame" x="40" y="6" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xKc-WT-gYi">
+                                <rect key="frame" x="20" y="348" width="280" height="81"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="CPR Training">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yZs-tt-GVC" kind="push" id="K5A-7R-nxx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -73,6 +88,187 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avc-4A-nPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="154" y="-138"/>
+        </scene>
+        <!--Training Mode Step1 View Controller - Training Step 1-->
+        <scene sceneID="QXZ-MQ-uvH">
+            <objects>
+                <viewController id="yZs-tt-GVC" customClass="TrainingModeStep1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ys-Hi-M4W">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tdp-1f-oWe">
+                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="P81-ud-H5S" kind="push" identifier="NextStepSegue" id="nE5-hc-5nM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 1" id="eog-eu-P5f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfg-dF-EsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="-869"/>
+        </scene>
+        <!--Training Mode Step2 View Controller - Training Step 2-->
+        <scene sceneID="d3y-y9-MLJ">
+            <objects>
+                <viewController id="P81-ud-H5S" customClass="TrainingModeStep2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zvf-uY-x9m">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9QT-Cb-Mjq">
+                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gx2-xm-RSY" kind="push" identifier="NextStepSegue" id="CsT-39-hAh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 2" id="GL2-Nt-jz7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Add-vw-wBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029" y="-869"/>
+        </scene>
+        <!--Training Mode Step4 View Controller - Training Step 4-->
+        <scene sceneID="W3z-wg-IfT">
+            <objects>
+                <viewController id="yHC-1a-qTV" customClass="TrainingModeStep4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kk0-3f-S1r">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JBt-Ve-WTy">
+                                <rect key="frame" x="20" y="408" width="280" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cE1-AH-c6z" kind="push" identifier="NextStepSegue" id="Ay8-gc-ltX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 4" id="sw9-Uu-uQR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJn-hR-DaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="-864"/>
+        </scene>
+        <!--Training Mode Step6 View Controller - Training Step 6-->
+        <scene sceneID="bUG-70-hHH">
+            <objects>
+                <viewController id="jD9-Hv-e99" customClass="TrainingModeStep6ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iTr-O7-tHg">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 6" id="kzG-OD-Fsb">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="sfZ-xB-9N2">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="jD9-Hv-e99" id="upB-cZ-ZCj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaE-je-UAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2538" y="-862"/>
+        </scene>
+        <!--Training Mode Step3 View Controller - Training Step 3-->
+        <scene sceneID="2sm-dQ-tLE">
+            <objects>
+                <viewController id="gx2-xm-RSY" customClass="TrainingModeStep3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bkH-1j-7EA">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Q0-2z-6Bt">
+                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yHC-1a-qTV" kind="push" identifier="NextStepSegue" id="aTQ-ng-74n"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 3" id="gP6-M0-yCg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rF9-Ut-ekM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1398" y="-864"/>
+        </scene>
+        <!--Training Mode Step5 View Controller - Training Step 5-->
+        <scene sceneID="oIX-OK-U8F">
+            <objects>
+                <viewController id="cE1-AH-c6z" customClass="TrainingModeStep5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yUM-ws-knj">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7rn-FJ-6dS">
+                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jD9-Hv-e99" kind="push" identifier="NextStepSegue" id="Oql-cw-yWR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Training Step 5" id="4RN-Md-PkF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3vy-BG-O2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136" y="-862"/>
         </scene>
         <!--Crisis Stage One View Controller - Step 1-->
         <scene sceneID="1l7-dF-Lzt">
@@ -470,6 +666,9 @@
         </class>
         <class className="CrisisStageSixViewController" superclassName="CrisisModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageSixViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonPressed:"/>
+            </relationships>
         </class>
         <class className="CrisisStageThreeViewController" superclassName="CrisisModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CrisisStageThreeViewController.h"/>
@@ -490,6 +689,24 @@
                 <relationship kind="outlet" name="crisisModeButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="logo" candidateClass="UIImageView"/>
             </relationships>
+        </class>
+        <class className="TrainingModeStep1ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep1ViewController.h"/>
+        </class>
+        <class className="TrainingModeStep2ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep2ViewController.h"/>
+        </class>
+        <class className="TrainingModeStep3ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep3ViewController.h"/>
+        </class>
+        <class className="TrainingModeStep4ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep4ViewController.h"/>
+        </class>
+        <class className="TrainingModeStep5ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep5ViewController.h"/>
+        </class>
+        <class className="TrainingModeStep6ViewController" superclassName="GenericViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep6ViewController.h"/>
         </class>
         <class className="VideoPlayerViewController" superclassName="GenericViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/VideoPlayerViewController.h"/>

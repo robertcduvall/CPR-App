@@ -46,6 +46,12 @@
 		FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */; };
 		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
+		FA97ACDF1653D8030035405A /* TrainingModeStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACDE1653D8030035405A /* TrainingModeStep1ViewController.m */; };
+		FA97ACE21653D8210035405A /* TrainingModeStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE11653D8210035405A /* TrainingModeStep2ViewController.m */; };
+		FA97ACE51653D8330035405A /* TrainingModeStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE41653D8330035405A /* TrainingModeStep3ViewController.m */; };
+		FA97ACE81653D8470035405A /* TrainingModeStep4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE71653D8470035405A /* TrainingModeStep4ViewController.m */; };
+		FA97ACEB1653D8560035405A /* TrainingModeStep5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */; };
+		FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */; };
 		FAA906FF162F333700602572 /* AED.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA906FE162F333700602572 /* AED.jpeg */; };
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
@@ -121,6 +127,18 @@
 		FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
 		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA97ACDD1653D8030035405A /* TrainingModeStep1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep1ViewController.h; sourceTree = "<group>"; };
+		FA97ACDE1653D8030035405A /* TrainingModeStep1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep1ViewController.m; sourceTree = "<group>"; };
+		FA97ACE01653D8210035405A /* TrainingModeStep2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep2ViewController.h; sourceTree = "<group>"; };
+		FA97ACE11653D8210035405A /* TrainingModeStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep2ViewController.m; sourceTree = "<group>"; };
+		FA97ACE31653D8330035405A /* TrainingModeStep3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep3ViewController.h; sourceTree = "<group>"; };
+		FA97ACE41653D8330035405A /* TrainingModeStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep3ViewController.m; sourceTree = "<group>"; };
+		FA97ACE61653D8470035405A /* TrainingModeStep4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep4ViewController.h; sourceTree = "<group>"; };
+		FA97ACE71653D8470035405A /* TrainingModeStep4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep4ViewController.m; sourceTree = "<group>"; };
+		FA97ACE91653D8560035405A /* TrainingModeStep5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep5ViewController.h; sourceTree = "<group>"; };
+		FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep5ViewController.m; sourceTree = "<group>"; };
+		FA97ACEC1653D8660035405A /* TrainingModeStep6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep6ViewController.h; sourceTree = "<group>"; };
+		FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep6ViewController.m; sourceTree = "<group>"; };
 		FAA906FE162F333700602572 /* AED.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AED.jpeg; sourceTree = "<group>"; };
 		FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLS-Check-for-response.jpeg"; sourceTree = "<group>"; };
 		FAA90703162F3B7500602572 /* large_car-accident.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "large_car-accident.jpeg"; sourceTree = "<group>"; };
@@ -213,6 +231,7 @@
 				49047A61162F00740056E82F /* Media */,
 				FA292D1D16177508001C1F9B /* AppDelegate.h */,
 				FA292D1E16177508001C1F9B /* AppDelegate.m */,
+				FA97ACDB1653D7A60035405A /* TrainingMode */,
 				FA95578C16178F68002BBEAC /* GenericViewController.h */,
 				FA95578D16178F69002BBEAC /* GenericViewController.m */,
 				FA9557A11617A1A3002BBEAC /* CrisisMode */,
@@ -263,6 +282,25 @@
 				FA9557901617918C002BBEAC /* CrisisStageTwoViewController.m */,
 			);
 			name = CrisisMode;
+			sourceTree = "<group>";
+		};
+		FA97ACDB1653D7A60035405A /* TrainingMode */ = {
+			isa = PBXGroup;
+			children = (
+				FA97ACDD1653D8030035405A /* TrainingModeStep1ViewController.h */,
+				FA97ACDE1653D8030035405A /* TrainingModeStep1ViewController.m */,
+				FA97ACE01653D8210035405A /* TrainingModeStep2ViewController.h */,
+				FA97ACE11653D8210035405A /* TrainingModeStep2ViewController.m */,
+				FA97ACE31653D8330035405A /* TrainingModeStep3ViewController.h */,
+				FA97ACE41653D8330035405A /* TrainingModeStep3ViewController.m */,
+				FA97ACE61653D8470035405A /* TrainingModeStep4ViewController.h */,
+				FA97ACE71653D8470035405A /* TrainingModeStep4ViewController.m */,
+				FA97ACE91653D8560035405A /* TrainingModeStep5ViewController.h */,
+				FA97ACEA1653D8560035405A /* TrainingModeStep5ViewController.m */,
+				FA97ACEC1653D8660035405A /* TrainingModeStep6ViewController.h */,
+				FA97ACED1653D8660035405A /* TrainingModeStep6ViewController.m */,
+			);
+			name = TrainingMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +408,12 @@
 				4934FBBF162F108000A61309 /* CrisisModeViewController.m in Sources */,
 				FA411E40163C805A0062F0E9 /* WebsiteViewController.m in Sources */,
 				FA8B0611163C8DC800E12EFD /* VideoPlayerViewController.m in Sources */,
+				FA97ACDF1653D8030035405A /* TrainingModeStep1ViewController.m in Sources */,
+				FA97ACE21653D8210035405A /* TrainingModeStep2ViewController.m in Sources */,
+				FA97ACE51653D8330035405A /* TrainingModeStep3ViewController.m in Sources */,
+				FA97ACE81653D8470035405A /* TrainingModeStep4ViewController.m in Sources */,
+				FA97ACEB1653D8560035405A /* TrainingModeStep5ViewController.m in Sources */,
+				FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
