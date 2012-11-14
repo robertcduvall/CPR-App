@@ -85,11 +85,15 @@
     audioFile = [audioFile substringToIndex:[audioFile rangeOfString:@"ViewController"].location];
     audioFile = [NSString stringWithFormat:@"%@VoiceCommands",audioFile];
     
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:audioFile ofType:@"mp3"]];
-    
-    self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
-    self.audioPlayer.delegate = self;
-    [self.audioPlayer prepareToPlay];
+    NSString *path = [[NSBundle mainBundle] pathForResource:audioFile ofType:@"mp3"];
+    if(path && path.length > 0)
+    {
+        NSURL *url = [NSURL fileURLWithPath:path];
+        self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+        self.audioPlayer.delegate = self;
+        [self.audioPlayer prepareToPlay];
+    }
+
 }
 
 
