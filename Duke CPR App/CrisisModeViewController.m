@@ -1,7 +1,5 @@
 #import "CrisisModeViewController.h"
 #import <AVFoundation/AVFoundation.h>
-#define NEXT_STEP_SEGUE @"NextStepSegue"
-#define NUM_OF_FINGERS_ALLOWED_FOR_SWIPE 2
 
 @interface CrisisModeViewController ()
 
@@ -15,7 +13,8 @@
 {
     [super viewDidLoad];
     [self initializeAudioPlayer];
-    [self addGestureRecognizer];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(textViewTapped)];
+    [self.textView addGestureRecognizer:tap];
 }
 
 - (void) viewDidAppear:(BOOL)animated
@@ -29,24 +28,7 @@
     [self.audioPlayer stop];
 }
 
--(void) addGestureRecognizer
-{
-    for(int i = 1; i  <= NUM_OF_FINGERS_ALLOWED_FOR_SWIPE; i++)
-    {
-        UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
-        swipeLeft.direction = UISwipeGestureRecognizerDirectionLeft;
-        swipeLeft.numberOfTouchesRequired = i;
-        [self.view addGestureRecognizer:swipeLeft];
-        
-        UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
-        swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
-        swipeRight.numberOfTouchesRequired = i;
-        [self.view addGestureRecognizer:swipeRight];
-    }
-    
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(textViewTapped)];
-    [self.textView addGestureRecognizer:tap];
-}
+
 
 - (void) textViewTapped
 {
@@ -57,26 +39,7 @@
     }
 }
 
--(void) swipeRecognized: (UISwipeGestureRecognizer  *) recognizer
-{
-//    if(recognizer.state != UIGestureRecognizerStateBegan) return;
-//    if(recognizer.state != UIGestureRecognizerStateRecognized) return;
-    if(recognizer.direction == UISwipeGestureRecognizerDirectionRight)
-    {
-        [self.navigationController popViewControllerAnimated:YES];
-    }
-    else if(recognizer.direction == UISwipeGestureRecognizerDirectionLeft)
-    {
-        @try
-        {
-            [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
-        }
-        @catch (NSException *exception)
-        {
-            //Silently die...muhaha
-        }
-    }
-}
+
 
 - (void) initializeAudioPlayer
 {

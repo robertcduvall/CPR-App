@@ -36,7 +36,7 @@
     }
     else
     {
-        //self.dialButton.hidden = YES;
+        self.dialButton.hidden = YES;
     }
     
 }
