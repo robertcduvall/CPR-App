@@ -15,9 +15,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    UIImage *background = [UIImage imageNamed:@"duke_blue.png"];
-    UIImage *background = [UIImage imageNamed:@"3d-blue-fractal_422_1417.jpg"];
-
+    UIImage *background = [UIImage imageNamed:@"2e_background_1136.jpg"];
     self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:background];
     [self addGestureRecognizer];
 

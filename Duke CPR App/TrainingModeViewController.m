@@ -27,7 +27,7 @@
 
 - (void) initializeVideoPlayer
 {
-    CGRect frame = CGRectMake(0, 110, self.view.frame.size.width, 200);
+    CGRect frame = CGRectMake(0, 20, self.view.frame.size.width, 200);
     self.myVideoView = [[UIView alloc] initWithFrame:frame];
     [self.view addSubview:self.myVideoView];
     

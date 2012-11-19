@@ -1,5 +1,5 @@
 #import "CrisisStageThreeViewController.h"
-#define STAGE_THREE_TEXT @"Place the victim on their back on a hard surface (neck stability)"
+#define STAGE_THREE_TEXT @"Place the victim on their back on a hard surface"//(neck stability)"
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageThreeViewController ()<UIGestureRecognizerDelegate>

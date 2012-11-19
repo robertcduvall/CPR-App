@@ -11,6 +11,30 @@
 		49047A66162F01540056E82F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49047A65162F01540056E82F /* MediaPlayer.framework */; };
 		49047A68162F04320056E82F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49047A67162F04320056E82F /* AVFoundation.framework */; };
 		4934FBBF162F108000A61309 /* CrisisModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934FBBE162F108000A61309 /* CrisisModeViewController.m */; };
+		493972F81658227D00CD4DC7 /* 0a_AppIcon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972E61658227D00CD4DC7 /* 0a_AppIcon_57.png */; };
+		493972F91658227D00CD4DC7 /* 0a_AppIcon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972E71658227D00CD4DC7 /* 0a_AppIcon_114.png */; };
+		493972FA1658227D00CD4DC7 /* 0a_spotlightSearch_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972E81658227D00CD4DC7 /* 0a_spotlightSearch_29.png */; };
+		493972FB1658227D00CD4DC7 /* 0a_spotlightSearch_59.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972E91658227D00CD4DC7 /* 0a_spotlightSearch_59.png */; };
+		493972FF1658227D00CD4DC7 /* 2_iphonemainmenu_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972ED1658227D00CD4DC7 /* 2_iphonemainmenu_1136.png */; };
+		493973001658227D00CD4DC7 /* 2b_cprenergencybutton_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972EE1658227D00CD4DC7 /* 2b_cprenergencybutton_1136.png */; };
+		493973011658227D00CD4DC7 /* 2c_cprtrainingbutn_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972EF1658227D00CD4DC7 /* 2c_cprtrainingbutn_1136.png */; };
+		493973021658227D00CD4DC7 /* 2d_additionalinfo)1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972F01658227D00CD4DC7 /* 2d_additionalinfo)1136.png */; };
+		493973031658227D00CD4DC7 /* 2e_background_1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493972F11658227D00CD4DC7 /* 2e_background_1136.jpg */; };
+		493973041658227D00CD4DC7 /* 2f_exitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972F21658227D00CD4DC7 /* 2f_exitbutton.png */; };
+		493973051658227D00CD4DC7 /* 3c_nextbutton_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972F31658227D00CD4DC7 /* 3c_nextbutton_1136.png */; };
+		493973061658227D00CD4DC7 /* blueprint_xs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493972F41658227D00CD4DC7 /* blueprint_xs.jpg */; };
+		493973071658227D00CD4DC7 /* blueprint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493972F51658227D00CD4DC7 /* blueprint.jpg */; };
+		493973081658227D00CD4DC7 /* logo512_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972F61658227D00CD4DC7 /* logo512_b.png */; };
+		493973091658227D00CD4DC7 /* logo1024_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 493972F71658227D00CD4DC7 /* logo1024_b.png */; };
+		4939730B165822D000CD4DC7 /* 0a_AppIcon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4939730A165822D000CD4DC7 /* 0a_AppIcon_57.png */; };
+		4939730D165822D500CD4DC7 /* 0a_AppIcon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4939730C165822D500CD4DC7 /* 0a_AppIcon_114.png */; };
+		493973111658234B00CD4DC7 /* 1a_splash_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 4939730E1658234B00CD4DC7 /* 1a_splash_480.png */; };
+		493973121658234B00CD4DC7 /* 1a_splash_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 4939730F1658234B00CD4DC7 /* 1a_splash_960.png */; };
+		493973131658234B00CD4DC7 /* 1a_splash_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973101658234B00CD4DC7 /* 1a_splash_1136.png */; };
+		493973151658235900CD4DC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973141658235900CD4DC7 /* Default.png */; };
+		493973171658236900CD4DC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973161658236900CD4DC7 /* Default@2x.png */; };
+		493973221658394100CD4DC7 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493973211658394100CD4DC7 /* SplashScreenViewController.m */; };
+		49397327165842A000CD4DC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973181658236D00CD4DC7 /* Default-568h@2x.png */; };
 		4965E6F716543CE0007DFFEE /* TrainingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */; };
 		4965E6FD16543DD6007DFFEE /* TrainingModeStep5Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */; };
 		4965E6FE16543DD6007DFFEE /* TrainingModeStep1Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */; };
@@ -18,6 +42,7 @@
 		4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */; };
 		4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */; };
 		49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */; };
+		499790E81659FC3B00F328A6 /* Duke_Med_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */; };
 		49E3ADCE162F45EC001CA109 /* Ken-Jeong-Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */; };
 		FA292D0F16177508001C1F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D0E16177508001C1F9B /* UIKit.framework */; };
 		FA292D1116177508001C1F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D1016177508001C1F9B /* Foundation.framework */; };
@@ -34,12 +59,7 @@
 		FA411E40163C805A0062F0E9 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */; };
 		FA8B0611163C8DC800E12EFD /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */; };
 		FA8B0616163C90F700E12EFD /* duke-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0615163C90F700E12EFD /* duke-logo.png */; };
-		FA8B0618163C910500E12EFD /* duke-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0617163C910500E12EFD /* duke-logo.png */; };
 		FA8B061A163C914000E12EFD /* duke-logo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0619163C914000E12EFD /* duke-logo-retina.png */; };
-		FA8B061C163C914600E12EFD /* duke-logo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061B163C914600E12EFD /* duke-logo-retina.png */; };
-		FA8B061E163C916B00E12EFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061D163C916B00E12EFD /* Default.png */; };
-		FA8B0620163C918100E12EFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B061F163C918100E12EFD /* Default@2x.png */; };
-		FA8B0622163C918900E12EFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0621163C918900E12EFD /* Default-568h@2x.png */; };
 		FA8B0624163C921D00E12EFD /* abstract-blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */; };
 		FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */; };
 		FA95578616177B14002BBEAC /* Duke.logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA95578416177B14002BBEAC /* Duke.logo.jpeg */; };
@@ -83,6 +103,31 @@
 		4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFourVoiceCommands.mp3; sourceTree = "<group>"; };
 		4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFiveVoiceCommands.mp3; sourceTree = "<group>"; };
 		4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageSixVoiceCommands.mp3; sourceTree = "<group>"; };
+		493972E61658227D00CD4DC7 /* 0a_AppIcon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_57.png; sourceTree = "<group>"; };
+		493972E71658227D00CD4DC7 /* 0a_AppIcon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_114.png; sourceTree = "<group>"; };
+		493972E81658227D00CD4DC7 /* 0a_spotlightSearch_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_spotlightSearch_29.png; sourceTree = "<group>"; };
+		493972E91658227D00CD4DC7 /* 0a_spotlightSearch_59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_spotlightSearch_59.png; sourceTree = "<group>"; };
+		493972ED1658227D00CD4DC7 /* 2_iphonemainmenu_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_iphonemainmenu_1136.png; sourceTree = "<group>"; };
+		493972EE1658227D00CD4DC7 /* 2b_cprenergencybutton_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2b_cprenergencybutton_1136.png; sourceTree = "<group>"; };
+		493972EF1658227D00CD4DC7 /* 2c_cprtrainingbutn_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2c_cprtrainingbutn_1136.png; sourceTree = "<group>"; };
+		493972F01658227D00CD4DC7 /* 2d_additionalinfo)1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2d_additionalinfo)1136.png"; sourceTree = "<group>"; };
+		493972F11658227D00CD4DC7 /* 2e_background_1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2e_background_1136.jpg; sourceTree = "<group>"; };
+		493972F21658227D00CD4DC7 /* 2f_exitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2f_exitbutton.png; sourceTree = "<group>"; };
+		493972F31658227D00CD4DC7 /* 3c_nextbutton_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3c_nextbutton_1136.png; sourceTree = "<group>"; };
+		493972F41658227D00CD4DC7 /* blueprint_xs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueprint_xs.jpg; sourceTree = "<group>"; };
+		493972F51658227D00CD4DC7 /* blueprint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueprint.jpg; sourceTree = "<group>"; };
+		493972F61658227D00CD4DC7 /* logo512_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo512_b.png; sourceTree = "<group>"; };
+		493972F71658227D00CD4DC7 /* logo1024_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1024_b.png; sourceTree = "<group>"; };
+		4939730A165822D000CD4DC7 /* 0a_AppIcon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_57.png; sourceTree = "<group>"; };
+		4939730C165822D500CD4DC7 /* 0a_AppIcon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_114.png; sourceTree = "<group>"; };
+		4939730E1658234B00CD4DC7 /* 1a_splash_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1a_splash_480.png; sourceTree = "<group>"; };
+		4939730F1658234B00CD4DC7 /* 1a_splash_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1a_splash_960.png; sourceTree = "<group>"; };
+		493973101658234B00CD4DC7 /* 1a_splash_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1a_splash_1136.png; sourceTree = "<group>"; };
+		493973141658235900CD4DC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		493973161658236900CD4DC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		493973181658236D00CD4DC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		493973201658394000CD4DC7 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		493973211658394100CD4DC7 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 		4965E6F516543CE0007DFFEE /* TrainingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeViewController.h; sourceTree = "<group>"; };
 		4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeViewController.m; sourceTree = "<group>"; };
 		4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep5Video.mov; sourceTree = "<group>"; };
@@ -91,8 +136,9 @@
 		4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep2Video.mov; sourceTree = "<group>"; };
 		4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep3Video.mov; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
+		499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Med_Logo.png; sourceTree = "<group>"; };
 		49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Ken-Jeong-Video.mov"; sourceTree = "<group>"; };
-		FA292D0A16177508001C1F9B /* Compression-Only CPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compression-Only CPR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA292D0A16177508001C1F9B /* Duke CPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke CPR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA292D0E16177508001C1F9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA292D1016177508001C1F9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA292D1216177508001C1F9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,12 +161,7 @@
 		FA8B060F163C8DC800E12EFD /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
 		FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
 		FA8B0615163C90F700E12EFD /* duke-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo.png"; sourceTree = "<group>"; };
-		FA8B0617163C910500E12EFD /* duke-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo.png"; sourceTree = "<group>"; };
 		FA8B0619163C914000E12EFD /* duke-logo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo-retina.png"; sourceTree = "<group>"; };
-		FA8B061B163C914600E12EFD /* duke-logo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duke-logo-retina.png"; sourceTree = "<group>"; };
-		FA8B061D163C916B00E12EFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FA8B061F163C918100E12EFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		FA8B0621163C918900E12EFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA8B0623163C921D00E12EFD /* abstract-blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abstract-blue-background.jpg"; sourceTree = "<group>"; };
 		FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3d-blue-fractal_422_1417.jpg"; sourceTree = "<group>"; };
 		FA95578416177B14002BBEAC /* Duke.logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Duke.logo.jpeg; sourceTree = "<group>"; };
@@ -179,6 +220,7 @@
 		49047A61162F00740056E82F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				493972E31658221800CD4DC7 /* Assets */,
 				4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */,
 				4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */,
 				4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */,
@@ -208,14 +250,40 @@
 			name = Media;
 			sourceTree = "<group>";
 		};
+		493972E31658221800CD4DC7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */,
+				4939730E1658234B00CD4DC7 /* 1a_splash_480.png */,
+				4939730F1658234B00CD4DC7 /* 1a_splash_960.png */,
+				493973101658234B00CD4DC7 /* 1a_splash_1136.png */,
+				493972E61658227D00CD4DC7 /* 0a_AppIcon_57.png */,
+				493972E71658227D00CD4DC7 /* 0a_AppIcon_114.png */,
+				493972E81658227D00CD4DC7 /* 0a_spotlightSearch_29.png */,
+				493972E91658227D00CD4DC7 /* 0a_spotlightSearch_59.png */,
+				493972ED1658227D00CD4DC7 /* 2_iphonemainmenu_1136.png */,
+				493972EE1658227D00CD4DC7 /* 2b_cprenergencybutton_1136.png */,
+				493972EF1658227D00CD4DC7 /* 2c_cprtrainingbutn_1136.png */,
+				493972F01658227D00CD4DC7 /* 2d_additionalinfo)1136.png */,
+				493972F11658227D00CD4DC7 /* 2e_background_1136.jpg */,
+				493972F21658227D00CD4DC7 /* 2f_exitbutton.png */,
+				493972F31658227D00CD4DC7 /* 3c_nextbutton_1136.png */,
+				493972F41658227D00CD4DC7 /* blueprint_xs.jpg */,
+				493972F51658227D00CD4DC7 /* blueprint.jpg */,
+				493972F61658227D00CD4DC7 /* logo512_b.png */,
+				493972F71658227D00CD4DC7 /* logo1024_b.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		FA292CFF16177508001C1F9B = {
 			isa = PBXGroup;
 			children = (
-				FA8B0621163C918900E12EFD /* Default-568h@2x.png */,
-				FA8B061F163C918100E12EFD /* Default@2x.png */,
-				FA8B061D163C916B00E12EFD /* Default.png */,
-				FA8B061B163C914600E12EFD /* duke-logo-retina.png */,
-				FA8B0617163C910500E12EFD /* duke-logo.png */,
+				493973181658236D00CD4DC7 /* Default-568h@2x.png */,
+				493973161658236900CD4DC7 /* Default@2x.png */,
+				493973141658235900CD4DC7 /* Default.png */,
+				4939730C165822D500CD4DC7 /* 0a_AppIcon_114.png */,
+				4939730A165822D000CD4DC7 /* 0a_AppIcon_57.png */,
 				49047A67162F04320056E82F /* AVFoundation.framework */,
 				49047A65162F01540056E82F /* MediaPlayer.framework */,
 				FA9557A21617AF15002BBEAC /* QuartzCore.framework */,
@@ -228,7 +296,7 @@
 		FA292D0B16177508001C1F9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA292D0A16177508001C1F9B /* Compression-Only CPR.app */,
+				FA292D0A16177508001C1F9B /* Duke CPR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +333,8 @@
 				4934FBBE162F108000A61309 /* CrisisModeViewController.m */,
 				FA411E3E163C805A0062F0E9 /* WebsiteViewController.h */,
 				FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */,
+				493973201658394000CD4DC7 /* SplashScreenViewController.h */,
+				493973211658394100CD4DC7 /* SplashScreenViewController.m */,
 			);
 			path = "Duke CPR App";
 			sourceTree = "<group>";
@@ -340,7 +410,7 @@
 			);
 			name = "Duke CPR App";
 			productName = "Duke CPR App";
-			productReference = FA292D0A16177508001C1F9B /* Compression-Only CPR.app */;
+			productReference = FA292D0A16177508001C1F9B /* Duke CPR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -396,12 +466,7 @@
 				FAF8E242162F426500996B71 /* funny_cartoon_zombie1.jpeg in Resources */,
 				49E3ADCE162F45EC001CA109 /* Ken-Jeong-Video.mov in Resources */,
 				FA8B0616163C90F700E12EFD /* duke-logo.png in Resources */,
-				FA8B0618163C910500E12EFD /* duke-logo.png in Resources */,
 				FA8B061A163C914000E12EFD /* duke-logo-retina.png in Resources */,
-				FA8B061C163C914600E12EFD /* duke-logo-retina.png in Resources */,
-				FA8B061E163C916B00E12EFD /* Default.png in Resources */,
-				FA8B0620163C918100E12EFD /* Default@2x.png in Resources */,
-				FA8B0622163C918900E12EFD /* Default-568h@2x.png in Resources */,
 				FA8B0624163C921D00E12EFD /* abstract-blue-background.jpg in Resources */,
 				FA8B062C163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg in Resources */,
 				4965E6FD16543DD6007DFFEE /* TrainingModeStep5Video.mov in Resources */,
@@ -409,6 +474,30 @@
 				4965E6FF16543DD6007DFFEE /* TrainingModeStep4Video.mov in Resources */,
 				4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */,
 				4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */,
+				493972F81658227D00CD4DC7 /* 0a_AppIcon_57.png in Resources */,
+				493972F91658227D00CD4DC7 /* 0a_AppIcon_114.png in Resources */,
+				493972FA1658227D00CD4DC7 /* 0a_spotlightSearch_29.png in Resources */,
+				493972FB1658227D00CD4DC7 /* 0a_spotlightSearch_59.png in Resources */,
+				493972FF1658227D00CD4DC7 /* 2_iphonemainmenu_1136.png in Resources */,
+				493973001658227D00CD4DC7 /* 2b_cprenergencybutton_1136.png in Resources */,
+				493973011658227D00CD4DC7 /* 2c_cprtrainingbutn_1136.png in Resources */,
+				493973021658227D00CD4DC7 /* 2d_additionalinfo)1136.png in Resources */,
+				493973031658227D00CD4DC7 /* 2e_background_1136.jpg in Resources */,
+				493973041658227D00CD4DC7 /* 2f_exitbutton.png in Resources */,
+				493973051658227D00CD4DC7 /* 3c_nextbutton_1136.png in Resources */,
+				493973061658227D00CD4DC7 /* blueprint_xs.jpg in Resources */,
+				493973071658227D00CD4DC7 /* blueprint.jpg in Resources */,
+				493973081658227D00CD4DC7 /* logo512_b.png in Resources */,
+				493973091658227D00CD4DC7 /* logo1024_b.png in Resources */,
+				4939730B165822D000CD4DC7 /* 0a_AppIcon_57.png in Resources */,
+				4939730D165822D500CD4DC7 /* 0a_AppIcon_114.png in Resources */,
+				493973111658234B00CD4DC7 /* 1a_splash_480.png in Resources */,
+				493973121658234B00CD4DC7 /* 1a_splash_960.png in Resources */,
+				493973131658234B00CD4DC7 /* 1a_splash_1136.png in Resources */,
+				493973151658235900CD4DC7 /* Default.png in Resources */,
+				493973171658236900CD4DC7 /* Default@2x.png in Resources */,
+				49397327165842A000CD4DC7 /* Default-568h@2x.png in Resources */,
+				499790E81659FC3B00F328A6 /* Duke_Med_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +529,7 @@
 				FA97ACEB1653D8560035405A /* TrainingModeStep5ViewController.m in Sources */,
 				FA97ACEE1653D8660035405A /* TrainingModeStep6ViewController.m in Sources */,
 				4965E6F716543CE0007DFFEE /* TrainingModeViewController.m in Sources */,
+				493973221658394100CD4DC7 /* SplashScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +613,7 @@
 				GCC_PREFIX_HEADER = "Duke CPR App/Duke CPR App-Prefix.pch";
 				INFOPLIST_FILE = "Duke CPR App/Duke CPR App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Compression-Only CPR";
+				PRODUCT_NAME = "Duke CPR";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -535,7 +625,7 @@
 				GCC_PREFIX_HEADER = "Duke CPR App/Duke CPR App-Prefix.pch";
 				INFOPLIST_FILE = "Duke CPR App/Duke CPR App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Compression-Only CPR";
+				PRODUCT_NAME = "Duke CPR";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

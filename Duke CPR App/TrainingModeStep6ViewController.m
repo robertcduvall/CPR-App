@@ -14,7 +14,8 @@
     [super viewDidLoad];
 }
 - (IBAction)doneButtonPressed:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    UIViewController *vc = [self.navigationController.viewControllers objectAtIndex:1];
+    [self.navigationController popToViewController:vc animated:YES];
 }
 
 

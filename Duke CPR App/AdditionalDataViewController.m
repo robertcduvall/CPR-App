@@ -12,7 +12,6 @@
 @property (strong, nonatomic) NSMutableDictionary *rowToWebUrls;
 @property (strong, nonatomic) NSNumber *row;
 @property (strong, nonatomic) NSMutableArray *rowTitles;
-@property (weak, nonatomic) IBOutlet UIImageView *logo;
 
 @end
 
@@ -28,10 +27,6 @@
     self.tableView.backgroundView = nil;
     [self mapInit];
     [self arrayInit];
-    self.logo.layer.cornerRadius = 50;
-    self.logo.clipsToBounds = YES;
-    
-    
 }
 
 -(void) arrayInit
@@ -59,7 +54,6 @@
 - (void)viewDidUnload
 {
     [self setTableView:nil];
-    [self setLogo:nil];
     [super viewDidUnload];
 }
 

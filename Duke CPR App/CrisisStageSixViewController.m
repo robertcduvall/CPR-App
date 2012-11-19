@@ -33,7 +33,7 @@
 
 - (void) initializeVideoPlayer
 {
-    CGRect frame = CGRectMake(0, 110, self.view.frame.size.width, 200);
+    CGRect frame = CGRectMake(0, 20, self.view.frame.size.width, 200);
     self.myVideoView = [[UIView alloc] initWithFrame:frame];
     [self.view addSubview:self.myVideoView];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Ken-Jeong-Video" ofType:@"mov"];
@@ -59,7 +59,8 @@
 
 - (IBAction)doneButtonPressed:(id)sender
 {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    UIViewController *vc = [self.navigationController.viewControllers objectAtIndex:1];
+    [self.navigationController popToViewController:vc animated:YES];
 }
 
 - (void)viewDidUnload

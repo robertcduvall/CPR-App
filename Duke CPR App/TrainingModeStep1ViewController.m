@@ -15,7 +15,8 @@
 	// Do any additional setup after loading the view.
 }
 - (IBAction)donePressed:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    UIViewController *vc = [self.navigationController.viewControllers objectAtIndex:1];
+    [self.navigationController popToViewController:vc animated:YES];
 }
 
 
