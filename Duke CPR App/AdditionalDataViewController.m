@@ -92,6 +92,8 @@
         WebsiteViewController * dest = (WebsiteViewController *) segue.destinationViewController;
         dest.websiteURL = [self.rowToWebUrls objectForKey:self.row];
      }
+    UIViewController *dest = segue.destinationViewController;
+    dest.title = [self.rowTitles objectAtIndex:[self.row intValue]];
 }
 - (void) viewDidDisappear:(BOOL)animated
 {
