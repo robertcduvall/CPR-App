@@ -22,7 +22,7 @@
 
 - (void) customizeTextView
 {
-    self.textView.font = [UIFont fontWithName:@"Arial-BoldMT" size:26];
+    self.textView.font = [UIFont fontWithName:@"Arial-BoldMT" size:22.9];
     self.textView.textColor = UIColorFromRGB(0x001A57);
     self.textView.textAlignment = NSTextAlignmentLeft;
 }

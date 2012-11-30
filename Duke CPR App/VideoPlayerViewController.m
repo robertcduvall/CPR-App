@@ -35,7 +35,7 @@
     NSURL *videoURL = [NSURL fileURLWithPath:path];
     
     self.myVideoPlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
-    self.myVideoPlayer.controlStyle = MPMovieControlStyleNone;
+    self.myVideoPlayer.controlStyle = MPMovieControlStyleEmbedded;
     //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoFinishedPlaying) name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
     self.myVideoPlayer.shouldAutoplay = YES;
     [self.myVideoPlayer.view setFrame: self.myVideoView.bounds];  // player's frame must match parent's

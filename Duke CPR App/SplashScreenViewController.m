@@ -23,7 +23,7 @@
     
 //    self.imageView.image = [UIImage imageNamed:<#(NSString *)#>];
 //    self.imageView.transform = CGAffineTransformMakeTranslation(0, -20);
-    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:0 target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
 }
 
 - (void) doneShowingSplashScreen

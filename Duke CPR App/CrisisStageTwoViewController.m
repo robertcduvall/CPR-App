@@ -1,7 +1,7 @@
 
 #import "CrisisStageTwoViewController.h"
 
-#define STAGE_TWO_TEXT @"Call 911 and ask for an AED"
+#define STAGE_TWO_TEXT @"Call 911 & ask for an AED"
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 #define EMERGENCY_NUMBER_STRING @"tel:911"
 

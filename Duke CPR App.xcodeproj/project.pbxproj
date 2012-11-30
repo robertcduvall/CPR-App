@@ -35,6 +35,11 @@
 		493973171658236900CD4DC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973161658236900CD4DC7 /* Default@2x.png */; };
 		493973221658394100CD4DC7 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493973211658394100CD4DC7 /* SplashScreenViewController.m */; };
 		49397327165842A000CD4DC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493973181658236D00CD4DC7 /* Default-568h@2x.png */; };
+		4951E9151667C9F200856339 /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4951E9101667C9F200856339 /* step1.png */; };
+		4951E9161667C9F200856339 /* step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4951E9111667C9F200856339 /* step2.png */; };
+		4951E9171667C9F200856339 /* step3_headonhardsurface.png in Resources */ = {isa = PBXBuildFile; fileRef = 4951E9121667C9F200856339 /* step3_headonhardsurface.png */; };
+		4951E9181667C9F200856339 /* step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4951E9131667C9F200856339 /* step4.png */; };
+		4951E9191667C9F200856339 /* step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4951E9141667C9F200856339 /* step5.png */; };
 		4965E6F716543CE0007DFFEE /* TrainingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */; };
 		4965E6FD16543DD6007DFFEE /* TrainingModeStep5Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */; };
 		4965E6FE16543DD6007DFFEE /* TrainingModeStep1Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */; };
@@ -128,6 +133,11 @@
 		493973181658236D00CD4DC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		493973201658394000CD4DC7 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
 		493973211658394100CD4DC7 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		4951E9101667C9F200856339 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		4951E9111667C9F200856339 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		4951E9121667C9F200856339 /* step3_headonhardsurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3_headonhardsurface.png; sourceTree = "<group>"; };
+		4951E9131667C9F200856339 /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		4951E9141667C9F200856339 /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
 		4965E6F516543CE0007DFFEE /* TrainingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeViewController.h; sourceTree = "<group>"; };
 		4965E6F616543CE0007DFFEE /* TrainingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeViewController.m; sourceTree = "<group>"; };
 		4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep5Video.mov; sourceTree = "<group>"; };
@@ -253,6 +263,7 @@
 		493972E31658221800CD4DC7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				4951E90F1667C9F200856339 /* illustrations */,
 				499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */,
 				4939730E1658234B00CD4DC7 /* 1a_splash_480.png */,
 				4939730F1658234B00CD4DC7 /* 1a_splash_960.png */,
@@ -274,6 +285,18 @@
 				493972F71658227D00CD4DC7 /* logo1024_b.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		4951E90F1667C9F200856339 /* illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				4951E9101667C9F200856339 /* step1.png */,
+				4951E9111667C9F200856339 /* step2.png */,
+				4951E9121667C9F200856339 /* step3_headonhardsurface.png */,
+				4951E9131667C9F200856339 /* step4.png */,
+				4951E9141667C9F200856339 /* step5.png */,
+			);
+			path = illustrations;
 			sourceTree = "<group>";
 		};
 		FA292CFF16177508001C1F9B = {
@@ -329,8 +352,6 @@
 				FA292D2A16177508001C1F9B /* AdditionalDataViewController.m */,
 				FA8B060F163C8DC800E12EFD /* VideoPlayerViewController.h */,
 				FA8B0610163C8DC800E12EFD /* VideoPlayerViewController.m */,
-				4934FBBD162F108000A61309 /* CrisisModeViewController.h */,
-				4934FBBE162F108000A61309 /* CrisisModeViewController.m */,
 				FA411E3E163C805A0062F0E9 /* WebsiteViewController.h */,
 				FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */,
 				493973201658394000CD4DC7 /* SplashScreenViewController.h */,
@@ -356,6 +377,8 @@
 		FA9557A11617A1A3002BBEAC /* CrisisMode */ = {
 			isa = PBXGroup;
 			children = (
+				4934FBBD162F108000A61309 /* CrisisModeViewController.h */,
+				4934FBBE162F108000A61309 /* CrisisModeViewController.m */,
 				FA95579516179BD9002BBEAC /* CrisisStageFourViewController.h */,
 				FA95579616179BD9002BBEAC /* CrisisStageFourViewController.m */,
 				FA955789161784D2002BBEAC /* CrisisStageOneViewController.h */,
@@ -498,6 +521,11 @@
 				493973171658236900CD4DC7 /* Default@2x.png in Resources */,
 				49397327165842A000CD4DC7 /* Default-568h@2x.png in Resources */,
 				499790E81659FC3B00F328A6 /* Duke_Med_Logo.png in Resources */,
+				4951E9151667C9F200856339 /* step1.png in Resources */,
+				4951E9161667C9F200856339 /* step2.png in Resources */,
+				4951E9171667C9F200856339 /* step3_headonhardsurface.png in Resources */,
+				4951E9181667C9F200856339 /* step4.png in Resources */,
+				4951E9191667C9F200856339 /* step5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

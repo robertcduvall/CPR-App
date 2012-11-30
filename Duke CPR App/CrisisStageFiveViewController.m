@@ -1,6 +1,6 @@
 
 #import "CrisisStageFiveViewController.h"
-#define STAGE_FIVE_TEXT @"Push hard and fast (2 inches deep 100 beats per minute)"
+#define STAGE_FIVE_TEXT @"Push hard and fast\n2 inches deep and 100 beats per minute"
 #define AUTO_PROGRESS_TIMER_INTERVAL 7
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 

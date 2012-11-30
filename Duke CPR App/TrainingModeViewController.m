@@ -14,22 +14,40 @@
     [super viewDidLoad];
 }
 
+
 - (void) viewDidAppear:(BOOL)animated
 {
-    [self initializeVideoPlayer];
+    if(!self.myVideoPlayer)
+    {
+        [self initializeVideoPlayer];
+    }
+    //Exiting fullscreen or returning to View Controller
+    else
+    {
+        [self.myVideoPlayer prepareToPlay];
+        [self.myVideoPlayer play];
+    }
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlaybackDidFinish) name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
 }
 
 - (void) viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.myVideoPlayer stop];
+    if(!self.myVideoPlayer.fullscreen)
+    {
+        [self.myVideoPlayer pause];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
+    }
 }
 
 - (void) initializeVideoPlayer
 {
     CGRect frame = CGRectMake(0, 70, self.view.frame.size.width, 200);
-    self.myVideoView = [[UIView alloc] initWithFrame:frame];
-    [self.view addSubview:self.myVideoView];
+    if(!self.myVideoView)
+    {
+        self.myVideoView = [[UIView alloc] initWithFrame:frame];
+        [self.view addSubview:self.myVideoView];
+    }
     
     NSString *class = NSStringFromClass([self class]);
     NSRange range = [class rangeOfString:@"ViewController"];
@@ -41,16 +59,29 @@
         NSURL *videoURL = [NSURL fileURLWithPath:path];
         
         self.myVideoPlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
-        self.myVideoPlayer.controlStyle = MPMovieControlStyleNone;
+        self.myVideoPlayer.controlStyle = MPMovieControlStyleEmbedded;
         self.myVideoPlayer.shouldAutoplay = YES;
         [self.myVideoPlayer.view setFrame: self.myVideoView.bounds];  // player's frame must match parent's
         [self.myVideoView addSubview: self.myVideoPlayer.view];
-        
+
         //Play video
         [self.myVideoPlayer prepareToPlay];
         [self.myVideoPlayer play];
     }
+}
 
+- (void) moviePlaybackDidFinish
+{
+    NSLog(@"IS FULLSCREEN 1 %d",self.myVideoPlayer.fullscreen);
+    [self.myVideoPlayer setFullscreen:NO animated:YES];
+    NSLog(@"IS FULLSCREEN 2 %d",self.myVideoPlayer.fullscreen);
+    self.myVideoPlayer.currentPlaybackTime = 0;
+    [self.myVideoPlayer pause];
+}
+
+- (void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
 }
 
 

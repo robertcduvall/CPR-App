@@ -99,7 +99,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Duke_Med_Logo.png" id="9Uw-u8-JQ4">
-                                <rect key="frame" x="20" y="20" width="224" height="55"/>
+                                <rect key="frame" x="20" y="20" width="209" height="55"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -111,7 +111,7 @@
             </objects>
             <point key="canvasLocation" x="154" y="-138"/>
         </scene>
-        <!--Training Mode Step1 View Controller - Training 1-->
+        <!--Training Mode Step1 View Controller - Intro-->
         <scene sceneID="QXZ-MQ-uvH">
             <objects>
                 <viewController id="yZs-tt-GVC" customClass="TrainingModeStep1ViewController" sceneMemberID="viewController">
@@ -137,7 +137,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training 1" id="eog-eu-P5f">
+                    <navigationItem key="navigationItem" title="Intro" id="eog-eu-P5f">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="RNa-Ou-S6q">
                             <connections>
                                 <action selector="donePressed:" destination="yZs-tt-GVC" id="7kq-H3-qbd"/>
@@ -149,7 +149,7 @@
             </objects>
             <point key="canvasLocation" x="582" y="-869"/>
         </scene>
-        <!--Training Mode Step2 View Controller - Training 2-->
+        <!--Training Mode Step2 View Controller - Response-->
         <scene sceneID="d3y-y9-MLJ">
             <objects>
                 <viewController id="P81-ud-H5S" customClass="TrainingModeStep2ViewController" sceneMemberID="viewController">
@@ -175,7 +175,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training 2" id="GL2-Nt-jz7">
+                    <navigationItem key="navigationItem" title="Response" id="GL2-Nt-jz7">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="pAV-dF-aab">
                             <connections>
                                 <action selector="doneButtonPressed:" destination="P81-ud-H5S" id="EAS-XD-afv"/>
@@ -187,7 +187,7 @@
             </objects>
             <point key="canvasLocation" x="1029" y="-869"/>
         </scene>
-        <!--Training Mode Step4 View Controller - Training 4-->
+        <!--Training Mode Step4 View Controller - Technique-->
         <scene sceneID="W3z-wg-IfT">
             <objects>
                 <viewController id="yHC-1a-qTV" customClass="TrainingModeStep4ViewController" sceneMemberID="viewController">
@@ -213,7 +213,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training 4" id="sw9-Uu-uQR">
+                    <navigationItem key="navigationItem" title="Technique" id="sw9-Uu-uQR">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="6Pf-7e-L3O">
                             <connections>
                                 <action selector="doneButtonPressed:" destination="yHC-1a-qTV" id="U6e-CH-zSe"/>
@@ -225,7 +225,7 @@
             </objects>
             <point key="canvasLocation" x="1761" y="-864"/>
         </scene>
-        <!--Training Mode Step3 View Controller - Training 3-->
+        <!--Training Mode Step3 View Controller - Compressions-->
         <scene sceneID="2sm-dQ-tLE">
             <objects>
                 <viewController id="gx2-xm-RSY" customClass="TrainingModeStep3ViewController" sceneMemberID="viewController">
@@ -251,7 +251,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training 3" id="gP6-M0-yCg">
+                    <navigationItem key="navigationItem" title="Compressions" id="gP6-M0-yCg">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="yRU-yD-4W2">
                             <connections>
                                 <action selector="doneButtonPressed:" destination="gx2-xm-RSY" id="S32-F4-HEE"/>
@@ -263,7 +263,7 @@
             </objects>
             <point key="canvasLocation" x="1398" y="-864"/>
         </scene>
-        <!--Training Mode Step5 View Controller - Training 5-->
+        <!--Training Mode Step5 View Controller - Conclusion-->
         <scene sceneID="oIX-OK-U8F">
             <objects>
                 <viewController id="cE1-AH-c6z" customClass="TrainingModeStep5ViewController" sceneMemberID="viewController">
@@ -272,7 +272,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training 5" id="4RN-Md-PkF">
+                    <navigationItem key="navigationItem" title="Conclusion" id="4RN-Md-PkF">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="GFF-oc-khk">
                             <connections>
                                 <action selector="doneButtonPressed:" destination="cE1-AH-c6z" id="KNz-tS-iE6"/>
@@ -293,7 +293,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="fMM-6L-rGN">
-                                <rect key="frame" x="11" y="220" width="289" height="172"/>
+                                <rect key="frame" x="13" y="257" width="287" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -302,7 +302,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BFu-mn-DKh">
                                 <rect key="frame" x="20" y="400" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" image="3c_nextbutton_1136.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -315,9 +315,9 @@
                                     <segue destination="PWM-Gk-oom" kind="push" identifier="NextStepSegue" id="LNl-U9-TNY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BLS-Check-for-response.jpeg" id="Nev-Dd-Wed">
-                                <rect key="frame" x="20" y="20" width="280" height="201"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step1.png" id="Nev-Dd-Wed">
+                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -339,18 +339,17 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="bWo-0I-e3I">
-                                <rect key="frame" x="11" y="246" width="289" height="78"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Call 911 &amp; ask for an AED " id="bWo-0I-e3I">
+                                <rect key="frame" x="13" y="257" width="287" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X8w-tb-QPi">
                                 <rect key="frame" x="20" y="400" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -377,9 +376,9 @@
                                     <action selector="dial911:" destination="PWM-Gk-oom" eventType="touchUpInside" id="985-F0-uJw"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="AED.jpeg" id="REW-Vl-uF6">
-                                <rect key="frame" x="20" y="20" width="280" height="218"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step2.png" id="rGB-7q-axN">
+                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -403,7 +402,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="tKy-qi-fr6">
-                                <rect key="frame" x="11" y="244" width="289" height="148"/>
+                                <rect key="frame" x="13" y="257" width="287" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -413,7 +412,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AsF-o1-Vrr">
                                 <rect key="frame" x="20" y="400" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -426,9 +425,9 @@
                                     <segue destination="hS5-WI-taY" kind="push" identifier="NextStepSegue" id="xD9-Ce-p3y"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="large_car-accident.jpeg" id="cDm-Wt-rgi">
-                                <rect key="frame" x="20" y="20" width="280" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step3_headonhardsurface.png" id="pk7-FD-iSB">
+                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -451,7 +450,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="U8R-Qx-8z9">
-                                <rect key="frame" x="11" y="241" width="289" height="158"/>
+                                <rect key="frame" x="13" y="257" width="287" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -461,7 +460,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mYa-dg-6fX">
                                 <rect key="frame" x="20" y="400" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -474,9 +473,9 @@
                                     <segue destination="bNQ-px-Dzz" kind="push" identifier="NextStepSegue" id="hzd-nD-BQF"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Handtochestoverheart.jpeg" id="Uom-mj-jjB">
-                                <rect key="frame" x="20" y="20" width="280" height="213"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step4.png" id="L5G-W7-2h8">
+                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -499,7 +498,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="rhm-DL-nen">
-                                <rect key="frame" x="11" y="254" width="289" height="138"/>
+                                <rect key="frame" x="13" y="257" width="287" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -509,7 +508,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uu8-hi-0sS">
                                 <rect key="frame" x="20" y="400" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -522,9 +521,9 @@
                                     <segue destination="aiT-zA-cx3" kind="push" identifier="NextStepSegue" id="xDE-5I-YV9"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="funny_cartoon_zombie1.jpeg" id="wKr-NT-Mra">
-                                <rect key="frame" x="20" y="20" width="280" height="226"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step5.png" id="iTz-E0-rC2">
+                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -582,12 +581,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DhD-i8-ZAD">
-                                <rect key="frame" x="11" y="112" width="300" height="392"/>
+                                <rect key="frame" x="11" y="76" width="300" height="428"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Duke_Med_Logo.png" id="y4e-k8-8Bb">
-                                <rect key="frame" x="20" y="20" width="224" height="55"/>
+                                <rect key="frame" x="20" y="20" width="209" height="55"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -650,12 +649,12 @@
         <image name="2c_cprtrainingbutn_1136.png" width="560" height="196"/>
         <image name="2d_additionalinfo)1136.png" width="558" height="118"/>
         <image name="3c_nextbutton_1136.png" width="485" height="172"/>
-        <image name="AED.jpeg" width="600" height="416"/>
-        <image name="BLS-Check-for-response.jpeg" width="320" height="240"/>
         <image name="Duke_Med_Logo.png" width="354" height="93"/>
-        <image name="Handtochestoverheart.jpeg" width="400" height="285"/>
-        <image name="funny_cartoon_zombie1.jpeg" width="400" height="400"/>
-        <image name="large_car-accident.jpeg" width="480" height="360"/>
+        <image name="step1.png" width="640" height="1136"/>
+        <image name="step2.png" width="640" height="1136"/>
+        <image name="step3_headonhardsurface.png" width="640" height="1136"/>
+        <image name="step4.png" width="640" height="1136"/>
+        <image name="step5.png" width="640" height="1136"/>
     </resources>
     <classes>
         <class className="AdditionalDataViewController" superclassName="GenericViewController">
@@ -715,12 +714,21 @@
         </class>
         <class className="TrainingModeStep3ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep3ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonPressed:"/>
+            </relationships>
         </class>
         <class className="TrainingModeStep4ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep4ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonPressed:"/>
+            </relationships>
         </class>
         <class className="TrainingModeStep5ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep5ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonPressed:"/>
+            </relationships>
         </class>
         <class className="TrainingModeViewController" superclassName="GenericViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeViewController.h"/>

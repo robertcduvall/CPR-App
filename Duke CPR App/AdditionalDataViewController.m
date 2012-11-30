@@ -37,6 +37,7 @@
     [self.rowTitles addObject:@"Heart Rescue Project"];
     [self.rowTitles addObject:@"Patients Like Me"];
     [self.rowTitles addObject:@"WomenHeart"];
+    [self.rowTitles addObject:@"Good Samaritan Law"];
     [self.rowTitles addObject:VIDEO_ROW_TITLE];
 }
 
@@ -48,6 +49,7 @@
     [self.rowToWebUrls setObject:@"http://www.heartrescueproject.com/heartrescue-program/heart-rescue-project-partners/partners/AMRMedicine/index.htm" forKey:[NSNumber numberWithInt:2]];
     [self.rowToWebUrls setObject:@"http://www.patientslikeme.com/" forKey:[NSNumber numberWithInt:3]];
     [self.rowToWebUrls setObject:@"http://www.womenheart.org/" forKey:[NSNumber numberWithInt:4]];
+    [self.rowToWebUrls setObject:@"http://www.heartsafeam.com/pages/faq_good_samaritan" forKey:[NSNumber numberWithInt:5]];
 }
 
 
