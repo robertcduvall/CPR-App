@@ -72,9 +72,7 @@
 
 - (void) moviePlaybackDidFinish
 {
-    NSLog(@"IS FULLSCREEN 1 %d",self.myVideoPlayer.fullscreen);
     [self.myVideoPlayer setFullscreen:NO animated:YES];
-    NSLog(@"IS FULLSCREEN 2 %d",self.myVideoPlayer.fullscreen);
     self.myVideoPlayer.currentPlaybackTime = 0;
     [self.myVideoPlayer pause];
 }

@@ -1,29 +1,53 @@
 #import "SplashScreenViewController.h"
 
 #define SHOW_HOME_SEGUE @"showHomeSegue"
+#define STATUS_BAR_HEIGHT 20
+#define FOUR_INCH_SCREEN_HEIGHT 568
+#define SPLASH_SCREEN_DISPLAY_TIME 1.8
 
 @interface SplashScreenViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
 @end
 
 @implementation SplashScreenViewController
 
+- (void) viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    //This is to make sure that from the home screen you can't swipe back to the splash screen
+    NSMutableArray *vcStack = [self.navigationController.viewControllers mutableCopy];
+    [vcStack removeObjectAtIndex:0];
+    self.navigationController.viewControllers = vcStack;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    NSMutableString *path = [[NSMutableString alloc]init];
-//    [path setString:[[NSBundle mainBundle] resourcePath]];
-//    [path setString:[path stringByAppendingPathComponent:@"Default.png"]];
-//    UIImage *background = [[UIImage alloc] initWithContentsOfFile:path];    UIImageView *imageView = [[UIImageView alloc] initWithImage:background];
-//    imageView.frame = self.view.frame;
-//    NSLog(@"%@",background);
-//    [self.view addSubview:imageView];
-////    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:background];
-    
-//    self.imageView.image = [UIImage imageNamed:<#(NSString *)#>];
-//    self.imageView.transform = CGAffineTransformMakeTranslation(0, -20);
-    [NSTimer scheduledTimerWithTimeInterval:0 target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
+    NSMutableString *path = [[NSMutableString alloc]init];
+    [path setString:[[NSBundle mainBundle] resourcePath]];
+    //If 4 inch screen
+    if([[UIScreen mainScreen] applicationFrame].size.height + 20 >= FOUR_INCH_SCREEN_HEIGHT)
+    {
+        [path setString:[path stringByAppendingPathComponent:@"Default-568h@2x.png"]];
+    }
+    //If 3.5 inch screen
+    else
+    {
+        //If retina
+        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2.0)
+        {
+            [path setString:[path stringByAppendingPathComponent:@"Default@2x.png"]];
+        }
+        //If not retina
+        else
+        {
+            [path setString:[path stringByAppendingPathComponent:@"Default.png"]];
+        }
+    }
+    UIImage *splashImage = [[UIImage alloc] initWithContentsOfFile:path];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:splashImage];
+    imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    [self.view addSubview:imageView];
+    [NSTimer scheduledTimerWithTimeInterval:SPLASH_SCREEN_DISPLAY_TIME target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
 }
 
 - (void) doneShowingSplashScreen
@@ -38,8 +62,8 @@
 }
 
 
-- (void)viewDidUnload {
-    [self setImageView:nil];
+- (void)viewDidUnload
+{
     [super viewDidUnload];
 }
 @end

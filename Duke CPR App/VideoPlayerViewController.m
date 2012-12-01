@@ -18,13 +18,27 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
-    [self initializeVideoPlayer];
+    if(!self.myVideoPlayer)
+    {
+        [self initializeVideoPlayer];
+    }
+    else
+    {
+        [self.myVideoPlayer prepareToPlay];
+        [self.myVideoPlayer play];
+    }
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlaybackDidFinish) name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
+
 }
 
 - (void) viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.myVideoPlayer stop];
+    if(!self.myVideoPlayer.fullscreen)
+    {
+        [self.myVideoPlayer pause];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
+    }
 }
 
 - (void) initializeVideoPlayer
@@ -36,19 +50,28 @@
     
     self.myVideoPlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
     self.myVideoPlayer.controlStyle = MPMovieControlStyleEmbedded;
-    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoFinishedPlaying) name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
     self.myVideoPlayer.shouldAutoplay = YES;
     [self.myVideoPlayer.view setFrame: self.myVideoView.bounds];  // player's frame must match parent's
     [self.myVideoView addSubview: self.myVideoPlayer.view];
-    
-    //Play video
     [self.myVideoPlayer prepareToPlay];
     [self.myVideoPlayer play];
 }
 
+- (void) moviePlaybackDidFinish
+{
+    [self.myVideoPlayer setFullscreen:NO animated:NO];
+    [self.myVideoPlayer pause];
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
 }
+
+- (void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:self.myVideoPlayer];
+}
+
 @end

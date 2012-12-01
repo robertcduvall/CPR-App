@@ -5,6 +5,15 @@
 
 #define CELL @"prototypeCell"
 #define ROWS self.rowTitles.count
+
+
+//Row titles
+#define DUKE_HEART_CENTER_ROW_TITLE @"Duke Heart Center"
+#define AHA_ROW_TITLE @"American Heart Association"
+#define HEARTRESCUE_ROW_TITLE @"HeartRescue Project"
+#define PATIENTS_LIKE_ME_ROW_TITLE @"Patients Like Me"
+#define WOMENHEART_ROW_TITLE @"WomenHeart"
+#define GOOD_SAMARITAN_ROW_TITLE @"Good Samaritan Law"
 #define VIDEO_ROW_TITLE @"Duke CPR Video"
 
 @interface AdditionalDataViewController () <UITableViewDataSource,UITableViewDelegate   >
@@ -12,6 +21,7 @@
 @property (strong, nonatomic) NSMutableDictionary *rowToWebUrls;
 @property (strong, nonatomic) NSNumber *row;
 @property (strong, nonatomic) NSMutableArray *rowTitles;
+
 
 @end
 
@@ -25,31 +35,33 @@
     self.tableView.delegate = self;
     self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.backgroundView = nil;
+    
+    [self tableDataInit];
     [self mapInit];
-    [self arrayInit];
 }
 
--(void) arrayInit
+- (void) tableDataInit
 {
     self.rowTitles = [[NSMutableArray alloc] init];
-    [self.rowTitles addObject:@"Duke Health"];
-    [self.rowTitles addObject:@"American Heart Association"];
-    [self.rowTitles addObject:@"Heart Rescue Project"];
-    [self.rowTitles addObject:@"Patients Like Me"];
-    [self.rowTitles addObject:@"WomenHeart"];
-    [self.rowTitles addObject:@"Good Samaritan Law"];
+    [self.rowTitles addObject:DUKE_HEART_CENTER_ROW_TITLE];
+    [self.rowTitles addObject:AHA_ROW_TITLE];
+    [self.rowTitles addObject:HEARTRESCUE_ROW_TITLE];
+    [self.rowTitles addObject:PATIENTS_LIKE_ME_ROW_TITLE];
+    [self.rowTitles addObject:WOMENHEART_ROW_TITLE];
+    [self.rowTitles addObject:GOOD_SAMARITAN_ROW_TITLE];
     [self.rowTitles addObject:VIDEO_ROW_TITLE];
+    self.rowTitles = [[self.rowTitles sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)] mutableCopy];
 }
 
 - (void) mapInit
 {
     self.rowToWebUrls = [[NSMutableDictionary alloc] init];
-    [self.rowToWebUrls setObject:@"http://www.dukehealth.org/heart_center" forKey:[NSNumber numberWithInt:0]];
-    [self.rowToWebUrls setObject:@"http://www.heart.org/HEARTORG/CPRAndECC/CPR_UCM_001118_SubHomePage.jsp" forKey:[NSNumber numberWithInt:1]];
-    [self.rowToWebUrls setObject:@"http://www.heartrescueproject.com/heartrescue-program/heart-rescue-project-partners/partners/AMRMedicine/index.htm" forKey:[NSNumber numberWithInt:2]];
-    [self.rowToWebUrls setObject:@"http://www.patientslikeme.com/" forKey:[NSNumber numberWithInt:3]];
-    [self.rowToWebUrls setObject:@"http://www.womenheart.org/" forKey:[NSNumber numberWithInt:4]];
-    [self.rowToWebUrls setObject:@"http://www.heartsafeam.com/pages/faq_good_samaritan" forKey:[NSNumber numberWithInt:5]];
+    [self.rowToWebUrls setObject:@"http://www.dukehealth.org/heart_center" forKey:DUKE_HEART_CENTER_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.heart.org/HEARTORG/CPRAndECC/CPR_UCM_001118_SubHomePage.jsp" forKey:AHA_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.heartrescueproject.com/heartrescue-program/heart-rescue-project-partners/partners/AMRMedicine/index.htm" forKey:HEARTRESCUE_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.patientslikeme.com/" forKey:PATIENTS_LIKE_ME_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.womenheart.org/" forKey:WOMENHEART_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.heartsafeam.com/pages/faq_good_samaritan" forKey:GOOD_SAMARITAN_ROW_TITLE];
 }
 
 
@@ -92,7 +104,7 @@
     if([segue.destinationViewController isKindOfClass:[WebsiteViewController class]])
     {
         WebsiteViewController * dest = (WebsiteViewController *) segue.destinationViewController;
-        dest.websiteURL = [self.rowToWebUrls objectForKey:self.row];
+        dest.websiteURL = [self.rowToWebUrls objectForKey:[self.rowTitles objectAtIndex: [self.row integerValue]]];
      }
     UIViewController *dest = segue.destinationViewController;
     dest.title = [self.rowTitles objectAtIndex:[self.row intValue]];
