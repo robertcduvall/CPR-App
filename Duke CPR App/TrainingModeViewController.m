@@ -1,6 +1,8 @@
 #import "TrainingModeViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
 
+#define STATUS_BAR_HEIGHT 20
+#define FOUR_INCH_SCREEN_HEIGHT 568
 
 @interface TrainingModeViewController ()
 @property (nonatomic, strong) UIView *myVideoView;
@@ -42,7 +44,18 @@
 
 - (void) initializeVideoPlayer
 {
-    CGRect frame = CGRectMake(0, 70, self.view.frame.size.width, 200);
+    CGRect frame;
+    //4 inch screen
+    if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
+    {
+        frame = CGRectMake(0, 105, self.view.frame.size.width, 200);
+    }
+    //3.5 inch screen
+    else
+    {
+        frame = CGRectMake(0, 70, self.view.frame.size.width, 200);
+
+    }
     if(!self.myVideoView)
     {
         self.myVideoView = [[UIView alloc] initWithFrame:frame];

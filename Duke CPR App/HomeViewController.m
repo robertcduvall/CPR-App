@@ -12,6 +12,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImage *background = [UIImage imageNamed:@"2e_background_1136.jpg"];
+    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:background];
 }
 
 - (void) viewWillAppear:(BOOL)animated

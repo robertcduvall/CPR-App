@@ -10,14 +10,6 @@
 
 @implementation SplashScreenViewController
 
-- (void) viewDidDisappear:(BOOL)animated
-{
-    [super viewDidDisappear:animated];
-    //This is to make sure that from the home screen you can't swipe back to the splash screen
-    NSMutableArray *vcStack = [self.navigationController.viewControllers mutableCopy];
-    [vcStack removeObjectAtIndex:0];
-    self.navigationController.viewControllers = vcStack;
-}
 
 - (void)viewDidLoad
 {
@@ -25,7 +17,7 @@
     NSMutableString *path = [[NSMutableString alloc]init];
     [path setString:[[NSBundle mainBundle] resourcePath]];
     //If 4 inch screen
-    if([[UIScreen mainScreen] applicationFrame].size.height + 20 >= FOUR_INCH_SCREEN_HEIGHT)
+    if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
     {
         [path setString:[path stringByAppendingPathComponent:@"Default-568h@2x.png"]];
     }

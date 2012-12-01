@@ -25,7 +25,6 @@
 - (void) setupTextView
 {
     self.textView.text = STAGE_ONE_TEXT;
-    NSLog(@"%@",self.textView.font);
 }
 
 - (NSString *) description

@@ -15,11 +15,11 @@
     NSURL *url = [NSURL URLWithString:self.websiteURL];
     NSURLRequest *requestObject = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:requestObject];
-    NSLog(@"%@",self.websiteURL);
 }
 
 
-- (void)viewDidUnload {
+- (void)viewDidUnload
+{
     [self setWebView:nil];
     [super viewDidUnload];
 }
