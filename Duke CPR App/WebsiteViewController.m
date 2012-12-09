@@ -8,7 +8,7 @@
 
 @implementation WebsiteViewController
 
-
+//opens the url of the website which is set in the prep for segue of the additonal data view controller
 - (void)viewDidLoad
 {
     [super viewDidLoad];

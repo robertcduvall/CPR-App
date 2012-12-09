@@ -77,6 +77,8 @@
 		FA95579D16179E16002BBEAC /* CrisisStageFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579C16179E16002BBEAC /* CrisisStageFiveViewController.m */; };
 		FA9557A016179E3A002BBEAC /* CrisisStageSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */; };
 		FA9557A31617AF15002BBEAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9557A21617AF15002BBEAC /* QuartzCore.framework */; };
+		FA95A9B216752E230015E062 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA95A9B116752E230015E062 /* README.txt */; };
+		FA95A9B516752E650015E062 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA95A9B416752E650015E062 /* LICENSE.txt */; };
 		FA97ACDF1653D8030035405A /* TrainingModeStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACDE1653D8030035405A /* TrainingModeStep1ViewController.m */; };
 		FA97ACE21653D8210035405A /* TrainingModeStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE11653D8210035405A /* TrainingModeStep2ViewController.m */; };
 		FA97ACE51653D8330035405A /* TrainingModeStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97ACE41653D8330035405A /* TrainingModeStep3ViewController.m */; };
@@ -191,6 +193,8 @@
 		FA95579E16179E39002BBEAC /* CrisisStageSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisStageSixViewController.h; sourceTree = "<group>"; };
 		FA95579F16179E39002BBEAC /* CrisisStageSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisStageSixViewController.m; sourceTree = "<group>"; };
 		FA9557A21617AF15002BBEAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA95A9B116752E230015E062 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FA95A9B416752E650015E062 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		FA97ACDD1653D8030035405A /* TrainingModeStep1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep1ViewController.h; sourceTree = "<group>"; };
 		FA97ACDE1653D8030035405A /* TrainingModeStep1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingModeStep1ViewController.m; sourceTree = "<group>"; };
 		FA97ACE01653D8210035405A /* TrainingModeStep2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingModeStep2ViewController.h; sourceTree = "<group>"; };
@@ -356,6 +360,8 @@
 				FA411E3F163C805A0062F0E9 /* WebsiteViewController.m */,
 				493973201658394000CD4DC7 /* SplashScreenViewController.h */,
 				493973211658394100CD4DC7 /* SplashScreenViewController.m */,
+				FA95A9B116752E230015E062 /* README.txt */,
+				FA95A9B416752E650015E062 /* LICENSE.txt */,
 			);
 			path = "Duke CPR App";
 			sourceTree = "<group>";
@@ -526,6 +532,8 @@
 				4951E9171667C9F200856339 /* step3_headonhardsurface.png in Resources */,
 				4951E9181667C9F200856339 /* step4.png in Resources */,
 				4951E9191667C9F200856339 /* step5.png in Resources */,
+				FA95A9B216752E230015E062 /* README.txt in Resources */,
+				FA95A9B516752E650015E062 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
