@@ -11,36 +11,9 @@
 @implementation SplashScreenViewController
 
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSMutableString *path = [[NSMutableString alloc]init];
-    [path setString:[[NSBundle mainBundle] resourcePath]];
-    //If 4 inch screen
-    if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
-    {
-        [path setString:[path stringByAppendingPathComponent:@"Default-568h@2x.png"]];
-    }
-    //If 3.5 inch screen
-    else
-    {
-        //If retina
-        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2.0)
-        {
-            [path setString:[path stringByAppendingPathComponent:@"Default@2x.png"]];
-        }
-        //If not retina
-        else
-        {
-            [path setString:[path stringByAppendingPathComponent:@"Default.png"]];
-        }
-    }
-    UIImage *splashImage = [[UIImage alloc] initWithContentsOfFile:path];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:splashImage];
-    imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
-    [self.view addSubview:imageView];
-    [NSTimer scheduledTimerWithTimeInterval:SPLASH_SCREEN_DISPLAY_TIME target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
 }
 
 - (void) doneShowingSplashScreen
@@ -51,9 +24,45 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    NSMutableString *path = [[NSMutableString alloc]init];
+    [path setString:[[NSBundle mainBundle] resourcePath]];
+    //If 4 inch screen
+    if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
+    {
+        NSLog(@"4 Inch");
+        [path setString:[path stringByAppendingPathComponent:@"Default-568h@2x.png"]];
+    }
+    //If 3.5 inch screen
+    else
+    {
+        //If retina
+        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2.0)
+        {
+            NSLog(@"Retina");
+            [path setString:[path stringByAppendingPathComponent:@"Default@2x.png"]];
+        }
+        //If not retina
+        else
+        {
+            NSLog(@"Not retina");
+            [path setString:[path stringByAppendingPathComponent:@"Default.png"]];
+        }
+    }
+    UIImage *splashImage = [[UIImage alloc] initWithContentsOfFile:path];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:splashImage];
+    imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
+    {
+        [self performSegueWithIdentifier:SHOW_HOME_SEGUE sender:self];
+    }
+    else
+    {
+        imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    }
+    [self.view addSubview:imageView];
+    [NSTimer scheduledTimerWithTimeInterval:SPLASH_SCREEN_DISPLAY_TIME target:self selector:@selector(doneShowingSplashScreen) userInfo:nil repeats:NO];
 }
-
 
 - (void)viewDidUnload
 {
