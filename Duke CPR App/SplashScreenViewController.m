@@ -20,7 +20,7 @@
 {
     [self performSegueWithIdentifier:SHOW_HOME_SEGUE sender:self];
 }
-
+// loads appropriate images based on the device being used
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

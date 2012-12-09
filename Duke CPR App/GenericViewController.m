@@ -26,7 +26,7 @@
     [self addGestureRecognizer];
 
 }
-
+//adds gesturerecognizer for different number of fingers up to the number allowed we chose 1 or 2
 -(void) addGestureRecognizer
 {
     for(int i = 1; i  <= NUM_OF_FINGERS_ALLOWED_FOR_SWIPE; i++)
@@ -42,7 +42,7 @@
         [self.view addGestureRecognizer:swipeRight];
     }
 }
-
+//method for doing something when a swipe occurs (it either advances to the next slide or returns to the previous
 -(void) swipeRecognized: (UISwipeGestureRecognizer  *) recognizer
 {
     //    if(recognizer.state != UIGestureRecognizerStateBegan) return;

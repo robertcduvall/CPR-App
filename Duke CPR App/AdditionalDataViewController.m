@@ -39,7 +39,7 @@
     [self tableDataInit];
     [self mapInit];
 }
-
+//creates the rows with specified titles
 - (void) tableDataInit
 {
     self.rowTitles = [[NSMutableArray alloc] init];
@@ -52,7 +52,7 @@
     [self.rowTitles addObject:VIDEO_ROW_TITLE];
     self.rowTitles = [[self.rowTitles sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)] mutableCopy];
 }
-
+//maps the urls to the specific rows
 - (void) mapInit
 {
     self.rowToWebUrls = [[NSMutableDictionary alloc] init];
@@ -98,7 +98,7 @@
     else [self performSegueWithIdentifier:@"info page segue" sender:self];
 
 }
-
+// preps to open a website view controller with the url from the map
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([segue.destinationViewController isKindOfClass:[WebsiteViewController class]])
