@@ -30,7 +30,6 @@
     //If 4 inch screen
     if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
     {
-        NSLog(@"4 Inch");
         [path setString:[path stringByAppendingPathComponent:@"Default-568h@2x.png"]];
     }
     //If 3.5 inch screen
@@ -39,13 +38,11 @@
         //If retina
         if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2.0)
         {
-            NSLog(@"Retina");
             [path setString:[path stringByAppendingPathComponent:@"Default@2x.png"]];
         }
         //If not retina
         else
         {
-            NSLog(@"Not retina");
             [path setString:[path stringByAppendingPathComponent:@"Default.png"]];
         }
     }
