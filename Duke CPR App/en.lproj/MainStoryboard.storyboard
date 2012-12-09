@@ -705,21 +705,12 @@
         </class>
         <class className="TrainingModeStep3ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep3ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneButtonPressed:"/>
-            </relationships>
         </class>
         <class className="TrainingModeStep4ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep4ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneButtonPressed:"/>
-            </relationships>
         </class>
         <class className="TrainingModeStep5ViewController" superclassName="TrainingModeViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeStep5ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneButtonPressed:"/>
-            </relationships>
         </class>
         <class className="TrainingModeViewController" superclassName="GenericViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrainingModeViewController.h"/>
