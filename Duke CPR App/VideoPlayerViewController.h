@@ -7,7 +7,7 @@
 //
 
 #import "GenericViewController.h"
-
+//A ViewController that creates VideoFunctionality
 @interface VideoPlayerViewController : GenericViewController
 
 @end

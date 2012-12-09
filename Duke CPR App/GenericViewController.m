@@ -1,4 +1,10 @@
-
+//
+//  GenericViewController.h
+//  Duke CPR App
+//
+//  Created by Alexander Bruce on 9/29/12.
+//  Copyright (c) 2012 Alexander Bruce. All rights reserved.
+// Andrew was also here...
 
 #import "GenericViewController.h"
 #define NEXT_STEP_SEGUE @"NextStepSegue"
@@ -11,7 +17,7 @@
 
 @implementation GenericViewController
 
-
+//Sets background and adds the gestureRecognizer
 - (void)viewDidLoad
 {
     [super viewDidLoad];
