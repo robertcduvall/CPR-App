@@ -52,10 +52,6 @@
     UIImage *splashImage = [[UIImage alloc] initWithContentsOfFile:path];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:splashImage];
     imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
-    NSLog(@"Path = %@",path);
-    NSLog(@"Splash Image = %@",splashImage);
-    NSLog(@"ImageView = %@",imageView);
-    NSLog(@"Frame height = %f",self.view.frame.size.height);
     if([[UIScreen mainScreen] applicationFrame].size.height + STATUS_BAR_HEIGHT >= FOUR_INCH_SCREEN_HEIGHT)
     {
         [self performSegueWithIdentifier:SHOW_HOME_SEGUE sender:self];
