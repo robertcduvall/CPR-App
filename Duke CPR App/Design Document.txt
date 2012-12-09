@@ -1,0 +1,27 @@
+CPR App Design Document
+Andrew Patterson, Alex Bruce & Zahava Alston
+
+Our app follows the standard model-view-controller architecture, but the complexities of our app lie within the controller hierarchy.  Each screen of the app has a separate controller class that manages what content is displayed on screen (videos, images, text...etc.)
+and what actions will advance the app.  
+
+The highest level of our ViewController hierarchy is GenericViewController.  This class extends the built-in UIViewController class and loads in the default background image. GenericViewController also gives the user the ability to swipe with one or two fingers on
+each screen to advance to the next screen or return to the previous screen.  
+
+There are three subclasses of GenericViewController - TrainingModeViewController, CrisisModeViewController and AdditionalDataViewController.  
+
+TrainingModeViewController is the parent class for each screen of the “CPR Training Mode” section. It manages the initialization and playing of the training videos.  TrainingModeViewController has 6 subclasses (named TrainingModeStepXViewController where X
+a number between 1 and 6) which control each step of the training.
+
+CrisisModeViewController is the parent class for each screen of the “Crisis Mode section.”  It manages the text and images displayed throughout the crisis section.  It also controls any voice instructions that are played.  Similar to TrainingModeViewController, this
+class also has 6 subclasses - one for each step of the crisis mode.
+
+AdditionalDataViewController is the last subclass of GenericViewController.  It displays a tableview of “learn more items” on the screen which can be interacted with.  For example, tapping on “Duke CPR Video” will segue to a new screen that will begin playing the
+video.
+
+The only odd viewcontroller throughout our project is HomeViewController.  Unlike the other classes discussed above, this does NOT extend GenericViewController.  The reason for this is so that it is not possible to swipe back to the splash screen.  The rest of the
+code for this class if self-explanatory.
+
+
+
+
+

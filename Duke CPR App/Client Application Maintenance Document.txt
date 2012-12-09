@@ -1,0 +1,15 @@
+Client Application Maintenance Document FAQ
+Andrew Patterson, Alex Bruce & Zahava Alston
+
+What devices does this app run on?
+Duke CPR is designed primarily for iPhones; however, the app can run in “stretched-mode” on iPads.  All versions of iPhone and iPad will work with this app, assuming that they are running a supported
+version of iOS (see below).
+
+What operating systems does this app support?
+Duke CPR works on iOS 5 and above.
+
+Does the app need access to the Internet?
+Crisis Mode and CPR training mode are fully functional without access to the Internet.  With a few exceptions, the “learn more” section needs access to the Internet.
+
+How much space does this app use?
+The app takes up less than 100 MB.

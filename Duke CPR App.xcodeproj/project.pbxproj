@@ -47,6 +47,8 @@
 		4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */; };
 		4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */; };
 		49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */; };
+		4983405016752F2200E35610 /* Client Application Maintenance Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983404F16752F2200E35610 /* Client Application Maintenance Document.txt */; };
+		4983405316752F4D00E35610 /* Design Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983405216752F4D00E35610 /* Design Document.txt */; };
 		499790E81659FC3B00F328A6 /* Duke_Med_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */; };
 		49E3ADCE162F45EC001CA109 /* Ken-Jeong-Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */; };
 		FA292D0F16177508001C1F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA292D0E16177508001C1F9B /* UIKit.framework */; };
@@ -148,6 +150,8 @@
 		4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep2Video.mov; sourceTree = "<group>"; };
 		4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep3Video.mov; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
+		4983404F16752F2200E35610 /* Client Application Maintenance Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Client Application Maintenance Document.txt"; sourceTree = "<group>"; };
+		4983405216752F4D00E35610 /* Design Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Design Document.txt"; sourceTree = "<group>"; };
 		499790E71659FC3B00F328A6 /* Duke_Med_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Med_Logo.png; sourceTree = "<group>"; };
 		49E3ADCD162F45EC001CA109 /* Ken-Jeong-Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Ken-Jeong-Video.mov"; sourceTree = "<group>"; };
 		FA292D0A16177508001C1F9B /* Duke CPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke CPR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -362,6 +366,8 @@
 				493973211658394100CD4DC7 /* SplashScreenViewController.m */,
 				FA95A9B116752E230015E062 /* README.txt */,
 				FA95A9B416752E650015E062 /* LICENSE.txt */,
+				4983404F16752F2200E35610 /* Client Application Maintenance Document.txt */,
+				4983405216752F4D00E35610 /* Design Document.txt */,
 			);
 			path = "Duke CPR App";
 			sourceTree = "<group>";
@@ -534,6 +540,8 @@
 				4951E9191667C9F200856339 /* step5.png in Resources */,
 				FA95A9B216752E230015E062 /* README.txt in Resources */,
 				FA95A9B516752E650015E062 /* LICENSE.txt in Resources */,
+				4983405016752F2200E35610 /* Client Application Maintenance Document.txt in Resources */,
+				4983405316752F4D00E35610 /* Design Document.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
