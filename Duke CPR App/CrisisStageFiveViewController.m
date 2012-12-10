@@ -2,6 +2,7 @@
 #import "CrisisStageFiveViewController.h"
 #define STAGE_FIVE_TEXT @"Push hard and fast\n2 inches deep and 100 beats per minute"
 #define AUTO_PROGRESS_TIMER_INTERVAL 7
+#define AUTO_PROGRESS_DELAY 2
 #define NEXT_STEP_SEGUE @"NextStepSegue"
 
 @interface CrisisStageFiveViewController ()<UIGestureRecognizerDelegate>
@@ -22,7 +23,7 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:YES];
-    self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:AUTO_PROGRESS_TIMER_INTERVAL target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
+    self.autoprogressTimer = [NSTimer scheduledTimerWithTimeInterval:self.audioPlayer.duration + AUTO_PROGRESS_DELAY target:self selector:@selector(autoprogress) userInfo:nil repeats:NO];
 }
 
 - (void) viewWillDisappear:(BOOL)animated

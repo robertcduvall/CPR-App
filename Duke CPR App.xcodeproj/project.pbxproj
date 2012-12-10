@@ -46,6 +46,12 @@
 		4965E6FF16543DD6007DFFEE /* TrainingModeStep4Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */; };
 		4965E70016543DD6007DFFEE /* TrainingModeStep2Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */; };
 		4965E70116543DD6007DFFEE /* TrainingModeStep3Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */; };
+		496B6E03167677D80089DA04 /* StageFiveVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6DFD167677D80089DA04 /* StageFiveVoiceCommands.mp3 */; };
+		496B6E04167677D80089DA04 /* StageFourVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6DFE167677D80089DA04 /* StageFourVoiceCommands.mp3 */; };
+		496B6E05167677D80089DA04 /* StageOneVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6DFF167677D80089DA04 /* StageOneVoiceCommands.mp3 */; };
+		496B6E06167677D80089DA04 /* StageSixVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6E00167677D80089DA04 /* StageSixVoiceCommands.mp3 */; };
+		496B6E07167677D80089DA04 /* StageThreeVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6E01167677D80089DA04 /* StageThreeVoiceCommands.mp3 */; };
+		496B6E08167677D80089DA04 /* StageTwoVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 496B6E02167677D80089DA04 /* StageTwoVoiceCommands.mp3 */; };
 		49782C88161F78DA0086933D /* Duke_Hospital_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */; };
 		4983405016752F2200E35610 /* Client Application Maintenance Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983404F16752F2200E35610 /* Client Application Maintenance Document.txt */; };
 		4983405316752F4D00E35610 /* Design Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4983405216752F4D00E35610 /* Design Document.txt */; };
@@ -91,12 +97,6 @@
 		FAA90702162F387100602572 /* BLS-Check-for-response.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90701162F387100602572 /* BLS-Check-for-response.jpeg */; };
 		FAA90704162F3B7500602572 /* large_car-accident.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90703162F3B7500602572 /* large_car-accident.jpeg */; };
 		FAA90706162F3CC400602572 /* Handtochestoverheart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA90705162F3CC400602572 /* Handtochestoverheart.jpeg */; };
-		FAF8E23A162F413A00996B71 /* StageOneVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */; };
-		FAF8E23B162F413A00996B71 /* StageTwoVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */; };
-		FAF8E23C162F413A00996B71 /* StageThreeVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */; };
-		FAF8E23D162F413A00996B71 /* StageFourVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */; };
-		FAF8E23E162F413A00996B71 /* StageFiveVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */; };
-		FAF8E23F162F413A00996B71 /* StageSixVoiceCommands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */; };
 		FAF8E242162F426500996B71 /* funny_cartoon_zombie1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAF8E241162F426500996B71 /* funny_cartoon_zombie1.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -106,12 +106,6 @@
 		49047A67162F04320056E82F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4934FBBD162F108000A61309 /* CrisisModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrisisModeViewController.h; sourceTree = "<group>"; };
 		4934FBBE162F108000A61309 /* CrisisModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrisisModeViewController.m; sourceTree = "<group>"; };
-		4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageOneVoiceCommands.mp3; sourceTree = "<group>"; };
-		4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageTwoVoiceCommands.mp3; sourceTree = "<group>"; };
-		4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageThreeVoiceCommands.mp3; sourceTree = "<group>"; };
-		4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFourVoiceCommands.mp3; sourceTree = "<group>"; };
-		4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFiveVoiceCommands.mp3; sourceTree = "<group>"; };
-		4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageSixVoiceCommands.mp3; sourceTree = "<group>"; };
 		493972E61658227D00CD4DC7 /* 0a_AppIcon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_57.png; sourceTree = "<group>"; };
 		493972E71658227D00CD4DC7 /* 0a_AppIcon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_AppIcon_114.png; sourceTree = "<group>"; };
 		493972E81658227D00CD4DC7 /* 0a_spotlightSearch_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0a_spotlightSearch_29.png; sourceTree = "<group>"; };
@@ -149,6 +143,12 @@
 		4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep4Video.mov; sourceTree = "<group>"; };
 		4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep2Video.mov; sourceTree = "<group>"; };
 		4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TrainingModeStep3Video.mov; sourceTree = "<group>"; };
+		496B6DFD167677D80089DA04 /* StageFiveVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFiveVoiceCommands.mp3; sourceTree = "<group>"; };
+		496B6DFE167677D80089DA04 /* StageFourVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageFourVoiceCommands.mp3; sourceTree = "<group>"; };
+		496B6DFF167677D80089DA04 /* StageOneVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageOneVoiceCommands.mp3; sourceTree = "<group>"; };
+		496B6E00167677D80089DA04 /* StageSixVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageSixVoiceCommands.mp3; sourceTree = "<group>"; };
+		496B6E01167677D80089DA04 /* StageThreeVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageThreeVoiceCommands.mp3; sourceTree = "<group>"; };
+		496B6E02167677D80089DA04 /* StageTwoVoiceCommands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageTwoVoiceCommands.mp3; sourceTree = "<group>"; };
 		49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_Hospital_Logo.png; sourceTree = "<group>"; };
 		4983404F16752F2200E35610 /* Client Application Maintenance Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Client Application Maintenance Document.txt"; sourceTree = "<group>"; };
 		4983405216752F4D00E35610 /* Design Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Design Document.txt"; sourceTree = "<group>"; };
@@ -242,6 +242,12 @@
 				4965E6F816543DD6007DFFEE /* TrainingModeStep5Video.mov */,
 				4965E6F916543DD6007DFFEE /* TrainingModeStep1Video.mov */,
 				4965E6FA16543DD6007DFFEE /* TrainingModeStep4Video.mov */,
+				496B6DFD167677D80089DA04 /* StageFiveVoiceCommands.mp3 */,
+				496B6DFE167677D80089DA04 /* StageFourVoiceCommands.mp3 */,
+				496B6DFF167677D80089DA04 /* StageOneVoiceCommands.mp3 */,
+				496B6E00167677D80089DA04 /* StageSixVoiceCommands.mp3 */,
+				496B6E01167677D80089DA04 /* StageThreeVoiceCommands.mp3 */,
+				496B6E02167677D80089DA04 /* StageTwoVoiceCommands.mp3 */,
 				4965E6FB16543DD6007DFFEE /* TrainingModeStep2Video.mov */,
 				4965E6FC16543DD6007DFFEE /* TrainingModeStep3Video.mov */,
 				FA8B062B163C93EC00E12EFD /* 3d-blue-fractal_422_1417.jpg */,
@@ -258,12 +264,6 @@
 				49782C87161F78DA0086933D /* Duke_Hospital_Logo.png */,
 				FAA906FE162F333700602572 /* AED.jpeg */,
 				49047A63162F00940056E82F /* CPR Instruction Video.mov */,
-				4934FBC4162F39C000A61309 /* StageOneVoiceCommands.mp3 */,
-				4934FBC6162F3A9800A61309 /* StageTwoVoiceCommands.mp3 */,
-				4934FBC7162F3A9800A61309 /* StageThreeVoiceCommands.mp3 */,
-				4934FBC8162F3A9800A61309 /* StageFourVoiceCommands.mp3 */,
-				4934FBC9162F3A9800A61309 /* StageFiveVoiceCommands.mp3 */,
-				4934FBCA162F3A9800A61309 /* StageSixVoiceCommands.mp3 */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -479,12 +479,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF8E23A162F413A00996B71 /* StageOneVoiceCommands.mp3 in Resources */,
-				FAF8E23B162F413A00996B71 /* StageTwoVoiceCommands.mp3 in Resources */,
-				FAF8E23C162F413A00996B71 /* StageThreeVoiceCommands.mp3 in Resources */,
-				FAF8E23D162F413A00996B71 /* StageFourVoiceCommands.mp3 in Resources */,
-				FAF8E23E162F413A00996B71 /* StageFiveVoiceCommands.mp3 in Resources */,
-				FAF8E23F162F413A00996B71 /* StageSixVoiceCommands.mp3 in Resources */,
 				FA292D1916177508001C1F9B /* InfoPlist.strings in Resources */,
 				FA292D2116177508001C1F9B /* Default.png in Resources */,
 				FA292D2316177508001C1F9B /* Default@2x.png in Resources */,
@@ -542,6 +536,12 @@
 				FA95A9B516752E650015E062 /* LICENSE.txt in Resources */,
 				4983405016752F2200E35610 /* Client Application Maintenance Document.txt in Resources */,
 				4983405316752F4D00E35610 /* Design Document.txt in Resources */,
+				496B6E03167677D80089DA04 /* StageFiveVoiceCommands.mp3 in Resources */,
+				496B6E04167677D80089DA04 /* StageFourVoiceCommands.mp3 in Resources */,
+				496B6E05167677D80089DA04 /* StageOneVoiceCommands.mp3 in Resources */,
+				496B6E06167677D80089DA04 /* StageSixVoiceCommands.mp3 in Resources */,
+				496B6E07167677D80089DA04 /* StageThreeVoiceCommands.mp3 in Resources */,
+				496B6E08167677D80089DA04 /* StageTwoVoiceCommands.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
