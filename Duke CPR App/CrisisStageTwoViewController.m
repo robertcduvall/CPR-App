@@ -30,15 +30,14 @@
     self.dialButton.layer.cornerRadius = 10;
     self.dialButton.layer.borderWidth = 1;
     self.dialButton.layer.borderColor = [UIColor blackColor].CGColor;
-    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:EMERGENCY_NUMBER_STRING]])
-    {
-        self.dialButton.hidden = NO;
-    }
-    else
-    {
-        self.dialButton.hidden = YES;
-    }
-    
+    //if ([[UIApplication sharedApplication] canOpenURL: [NSURL URLWithString:EMERGENCY_NUMBER_STRING]])
+    //{
+    //    self.dialButton.hidden = NO;
+    //}
+    //else
+    //{
+    //    self.dialButton.hidden = YES;
+    //}
 }
 
 

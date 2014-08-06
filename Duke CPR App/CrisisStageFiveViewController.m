@@ -37,12 +37,10 @@
     [self performSegueWithIdentifier:NEXT_STEP_SEGUE sender:self];
 }
 
-
 - (void)setUpTextView
 {
     self.textView.text = STAGE_FIVE_TEXT;
 }
-
 
 - (void)viewDidUnload
 {

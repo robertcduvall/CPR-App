@@ -38,8 +38,6 @@
     [self.audioPlayer stop];
 }
 
-
-
 - (void) textViewTapped
 {
     if(![self.audioPlayer isPlaying])
@@ -48,8 +46,6 @@
         [self.audioPlayer play];
     }
 }
-
-
 
 - (void) initializeAudioPlayer
 {
@@ -66,9 +62,7 @@
         self.audioPlayer.delegate = self;
         [self.audioPlayer prepareToPlay];
     }
-
 }
-
 
 
 @end

@@ -13,7 +13,7 @@
 #define HEARTRESCUE_ROW_TITLE @"HeartRescue Project"
 #define PATIENTS_LIKE_ME_ROW_TITLE @"Patients Like Me"
 #define WOMENHEART_ROW_TITLE @"WomenHeart"
-#define GOOD_SAMARITAN_ROW_TITLE @"Good Samaritan Law"
+#define GOOD_SAMARITAN_ROW_TITLE @"NC Good Samaritan Law"
 #define VIDEO_ROW_TITLE @"Duke CPR Video"
 
 @interface AdditionalDataViewController () <UITableViewDataSource,UITableViewDelegate   >
@@ -61,7 +61,7 @@
     [self.rowToWebUrls setObject:@"http://www.heartrescueproject.com/heartrescue-program/heart-rescue-project-partners/partners/AMRMedicine/index.htm" forKey:HEARTRESCUE_ROW_TITLE];
     [self.rowToWebUrls setObject:@"http://www.patientslikeme.com/" forKey:PATIENTS_LIKE_ME_ROW_TITLE];
     [self.rowToWebUrls setObject:@"http://www.womenheart.org/" forKey:WOMENHEART_ROW_TITLE];
-    [self.rowToWebUrls setObject:@"http://www.heartsafeam.com/pages/faq_good_samaritan" forKey:GOOD_SAMARITAN_ROW_TITLE];
+    [self.rowToWebUrls setObject:@"http://www.ncleg.net/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.14.html" forKey:GOOD_SAMARITAN_ROW_TITLE];
 }
 
 

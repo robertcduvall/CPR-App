@@ -28,7 +28,7 @@
 //adds gesturerecognizer for different number of fingers up to the number allowed we chose 1 or 2
 -(void) addGestureRecognizer
 {
-    for(int i = 1; i  <= NUM_OF_FINGERS_ALLOWED_FOR_SWIPE; i++)
+    for(int i = 1; i <= NUM_OF_FINGERS_ALLOWED_FOR_SWIPE; i++)
     {
         UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
         swipeLeft.direction = UISwipeGestureRecognizerDirectionLeft;

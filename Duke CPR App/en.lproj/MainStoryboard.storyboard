@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bE2-V1-qfb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bE2-V1-qfb">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="MCQ-6K-NNU">
             <objects>
                 <navigationController definesPresentationContext="YES" id="bE2-V1-qfb" sceneMemberID="viewController">
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="i15-CM-XYM">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -25,12 +26,12 @@
             <objects>
                 <viewController wantsFullScreenLayout="YES" id="1ry-0k-4QW" customClass="SplashScreenViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n6d-mE-7d1">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wge-so-shf"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <segue destination="wgi-g7-pbv" kind="push" identifier="showHomeSegue" id="8iU-nG-Kw9"/>
@@ -45,11 +46,11 @@
             <objects>
                 <viewController id="wgi-g7-pbv" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rWz-tq-CF3">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bV6-Rs-qGk">
-                                <rect key="frame" x="20" y="108" width="280" height="158"/>
+                                <rect key="frame" x="20" y="147.5" width="280" height="178"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" image="2b_cprenergencybutton_1136.png">
@@ -64,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eKj-es-DgZ">
-                                <rect key="frame" x="20" y="375" width="280" height="67"/>
+                                <rect key="frame" x="20" y="448.5" width="280" height="75.5"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
                                 <state key="normal" title="Learn More" image="2d_additionalinfo)1136.png">
@@ -79,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xKc-WT-gYi">
-                                <rect key="frame" x="20" y="274" width="280" height="93"/>
+                                <rect key="frame" x="20" y="334.5" width="280" height="105"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="CPR Training" image="2c_cprtrainingbutn_1136.png">
@@ -94,13 +95,13 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Duke_Med_Logo.png" id="9Uw-u8-JQ4">
-                                <rect key="frame" x="20" y="20" width="209" height="55"/>
+                                <rect key="frame" x="20" y="70" width="209" height="55"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="Zj9-rs-6Oc"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avc-4A-nPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -112,11 +113,11 @@
             <objects>
                 <viewController id="yZs-tt-GVC" customClass="TrainingModeStep1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ys-Hi-M4W">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tdp-1f-oWe">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -150,11 +151,11 @@
             <objects>
                 <viewController id="P81-ud-H5S" customClass="TrainingModeStep2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvf-uY-x9m">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9QT-Cb-Mjq">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" backgroundImage="3c_nextbutton_1136.png">
@@ -188,11 +189,11 @@
             <objects>
                 <viewController id="yHC-1a-qTV" customClass="TrainingModeStep4ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kk0-3f-S1r">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JBt-Ve-WTy">
-                                <rect key="frame" x="20" y="408" width="280" height="78"/>
+                                <rect key="frame" x="20" y="469" width="280" height="78"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" backgroundImage="3c_nextbutton_1136.png">
@@ -226,11 +227,11 @@
             <objects>
                 <viewController id="gx2-xm-RSY" customClass="TrainingModeStep3ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bkH-1j-7EA">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Q0-2z-6Bt">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -264,7 +265,7 @@
             <objects>
                 <viewController id="cE1-AH-c6z" customClass="TrainingModeStep5ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yUM-ws-knj">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -285,18 +286,11 @@
             <objects>
                 <viewController id="rd8-Vq-6MT" customClass="CrisisStageOneViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLI-Nh-HeU">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="fMM-6L-rGN">
-                                <rect key="frame" x="13" y="257" width="287" height="135"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="27"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BFu-mn-DKh">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" image="3c_nextbutton_1136.png">
@@ -311,16 +305,17 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step1.png" id="Nev-Dd-Wed">
-                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <rect key="frame" x="50" y="73" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step1_text.png" id="gRJ-V8-aND">
+                                <rect key="frame" x="20" y="349" width="280" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Step 1" id="WLr-Xf-9bl"/>
-                    <connections>
-                        <outlet property="textView" destination="fMM-6L-rGN" id="T6H-gw-unJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zMb-Zp-GNI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,19 +326,11 @@
             <objects>
                 <viewController id="PWM-Gk-oom" customClass="CrisisStageTwoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yto-wo-PR1">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Call 911 &amp; ask for an AED " id="bWo-0I-e3I">
-                                <rect key="frame" x="13" y="257" width="287" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X8w-tb-QPi">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -357,32 +344,33 @@
                                     <segue destination="FHT-0M-zgy" kind="push" identifier="NextStepSegue" id="tLZ-mn-ZCV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J2T-7Y-58Y">
-                                <rect key="frame" x="20" y="308" width="280" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step2.png" id="rGB-7q-axN">
+                                <rect key="frame" x="50" y="72" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step2_text.png" id="GBY-zp-BYt">
+                                <rect key="frame" x="20" y="345" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K9d-qm-EKF" userLabel="Button - Call">
+                                <rect key="frame" x="20" y="391" width="280" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
-                                <state key="normal" title="Dial 911">
+                                <state key="normal" title="Call 911" image="call911Button.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="dial911:" destination="PWM-Gk-oom" eventType="touchUpInside" id="985-F0-uJw"/>
+                                    <action selector="dial911:" destination="tNs-w1-gpj" eventType="touchDown" id="nj4-tC-t8m"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step2.png" id="rGB-7q-axN">
-                                <rect key="frame" x="50" y="12" width="221" height="392"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Step 2" id="NRH-0j-iYA"/>
-                    <connections>
-                        <outlet property="dialButton" destination="J2T-7Y-58Y" id="U6C-uj-Uwo"/>
-                        <outlet property="textView" destination="bWo-0I-e3I" id="COZ-Gu-eT9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNs-w1-gpj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -393,20 +381,11 @@
             <objects>
                 <viewController id="FHT-0M-zgy" customClass="CrisisStageThreeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pdh-HK-wlY">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="tKy-qi-fr6">
-                                <rect key="frame" x="13" y="257" width="287" height="135"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AsF-o1-Vrr">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -420,17 +399,18 @@
                                     <segue destination="hS5-WI-taY" kind="push" identifier="NextStepSegue" id="xD9-Ce-p3y"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step3_headonhardsurface.png" id="pk7-FD-iSB">
-                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step3.png" id="pk7-FD-iSB">
+                                <rect key="frame" x="55" y="71" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step3_text.png" id="ZZB-fc-f2P">
+                                <rect key="frame" x="20" y="346" width="280" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Step 3" id="0PI-fw-Ln3"/>
-                    <connections>
-                        <outlet property="textView" destination="tKy-qi-fr6" id="nW7-Do-zJB"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D65-Fu-nhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -441,20 +421,11 @@
             <objects>
                 <viewController id="hS5-WI-taY" customClass="CrisisStageFourViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q5I-Rz-NtY">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="U8R-Qx-8z9">
-                                <rect key="frame" x="13" y="257" width="287" height="135"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mYa-dg-6fX">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -469,16 +440,17 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step4.png" id="L5G-W7-2h8">
-                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <rect key="frame" x="46" y="75" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step4_text.png" id="5kT-Tm-aCV">
+                                <rect key="frame" x="20" y="352" width="280" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Step 4" id="29w-wL-hXa"/>
-                    <connections>
-                        <outlet property="textView" destination="U8R-Qx-8z9" id="94C-bo-Oez"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q9k-q0-dKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -489,20 +461,11 @@
             <objects>
                 <viewController id="bNQ-px-Dzz" customClass="CrisisStageFiveViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xYd-Re-5Sd">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="rhm-DL-nen">
-                                <rect key="frame" x="13" y="257" width="287" height="135"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uu8-hi-0sS">
-                                <rect key="frame" x="20" y="400" width="280" height="85"/>
+                                <rect key="frame" x="20" y="461" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="31"/>
                                 <state key="normal" title="Next" image="3c_nextbutton_1136.png">
@@ -517,16 +480,17 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step5.png" id="iTz-E0-rC2">
-                                <rect key="frame" x="50" y="12" width="221" height="392"/>
+                                <rect key="frame" x="50" y="72" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="step5_text.png" id="vug-cx-QQc">
+                                <rect key="frame" x="20" y="352" width="280" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Step 5" id="Aas-pU-qG9"/>
-                    <connections>
-                        <outlet property="textView" destination="rhm-DL-nen" id="c4N-vg-U4e"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fM-PM-8mN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -537,18 +501,17 @@
             <objects>
                 <viewController id="aiT-zA-cx3" customClass="CrisisStageSixViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lY2-Th-ouL">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" id="l8m-fG-0qn">
-                                <rect key="frame" x="11" y="266" width="289" height="214"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step6.png" id="zx4-EZ-tG7">
+                                <rect key="frame" x="52" y="73" width="220" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step6_text.png" id="Pg1-F8-iLQ">
+                                <rect key="frame" x="20" y="355" width="280" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -559,9 +522,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="textView" destination="l8m-fG-0qn" id="4Ot-sE-04d"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4L-kp-9dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -572,16 +532,16 @@
             <objects>
                 <viewController id="1Pc-0o-PHL" customClass="AdditionalDataViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ECp-Md-LAM">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DhD-i8-ZAD">
-                                <rect key="frame" x="11" y="76" width="300" height="428"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DhD-i8-ZAD">
+                                <rect key="frame" x="11" y="76" width="300" height="492"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Duke_Med_Logo.png" id="y4e-k8-8Bb">
-                                <rect key="frame" x="20" y="20" width="209" height="55"/>
+                                <rect key="frame" x="20" y="76.5" width="209" height="55"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -602,11 +562,11 @@
             <objects>
                 <viewController id="j0l-wa-aJc" customClass="WebsiteViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ofR-ho-x0A">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="TfI-Sg-su2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -627,7 +587,7 @@
             <objects>
                 <viewController id="s2K-pv-mP1" customClass="VideoPlayerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="duM-li-0FZ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -639,16 +599,24 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2b_cprenergencybutton_1136.png" width="558" height="338"/>
-        <image name="2c_cprtrainingbutn_1136.png" width="560" height="196"/>
-        <image name="2d_additionalinfo)1136.png" width="558" height="118"/>
-        <image name="3c_nextbutton_1136.png" width="485" height="172"/>
-        <image name="Duke_Med_Logo.png" width="354" height="93"/>
-        <image name="step1.png" width="640" height="1136"/>
-        <image name="step2.png" width="640" height="1136"/>
-        <image name="step3_headonhardsurface.png" width="640" height="1136"/>
-        <image name="step4.png" width="640" height="1136"/>
-        <image name="step5.png" width="640" height="1136"/>
+        <image name="2b_cprenergencybutton_1136.png" width="550" height="330"/>
+        <image name="2c_cprtrainingbutn_1136.png" width="552" height="188"/>
+        <image name="2d_additionalinfo)1136.png" width="550" height="110"/>
+        <image name="3c_nextbutton_1136.png" width="555" height="156"/>
+        <image name="Duke_Med_Logo.png" width="449" height="125"/>
+        <image name="call911Button.png" width="550" height="124"/>
+        <image name="step1.png" width="386" height="475"/>
+        <image name="step1_text.png" width="550" height="180"/>
+        <image name="step2.png" width="385" height="475"/>
+        <image name="step2_text.png" width="550" height="65"/>
+        <image name="step3.png" width="385" height="475"/>
+        <image name="step3_text.png" width="550" height="135"/>
+        <image name="step4.png" width="387" height="475"/>
+        <image name="step4_text.png" width="550" height="185"/>
+        <image name="step5.png" width="386" height="475"/>
+        <image name="step5_text.png" width="552" height="185"/>
+        <image name="step6.png" width="386" height="475"/>
+        <image name="step6_text.png" width="550" height="219"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

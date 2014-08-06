@@ -1,6 +1,6 @@
 #import "CrisisStageOneViewController.h"
 
-#define STAGE_ONE_TEXT @"Check to see if the victim is unresponsive by shaking and shouting "//(gasping for breath does not mean the victim is okay)"
+#define STAGE_ONE_TEXT @"Check to see if the victim is unresponsive by shaking and shouting "
 
 @interface CrisisStageOneViewController () <UIGestureRecognizerDelegate>
 @end
